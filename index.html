@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RubiPic — turn your photos into Rubik's Cube mosaics</title>
+<meta name="description" content="RubiPic converts any photo into a print-ready Rubik's Cube mosaic plan. Pick a generation method, fine-tune colors and size, and print the instructions at true 1:1 scale.">
+<meta name="theme-color" content="#fbf0dc">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="RubiPic — turn your photos into Rubik's Cube mosaics">
+<meta property="og:description" content="Print-ready Rubik's Cube mosaics generated from your own photos, at true 1:1 scale.">
+<meta property="og:image" content="assets/icons/logo-512.jpg">
+<meta property="og:url" content="https://rubipic.app/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="#" class="brand">
+      <img src="assets/icons/logo.webp" width="40" height="40" alt="RubiPic logo">
+      <span>RubiPic</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#methods" data-i18n="nav.methods">Methods</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-toggle">
+        <button type="button" data-lang="pl">PL</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow" data-i18n="hero.eyebrow">Photo → Rubik's Cube mosaic</span>
+        <h1 data-i18n="hero.title">Turn your photos into a real <span class="accent">cube mosaic</span></h1>
+        <p class="lead" data-i18n="hero.lead">RubiPic converts any photo into a print-ready plan built from Rubik's cube faces. Print the instructions, arrange the cubes on the grid, and build your own artwork at true 1:1 scale.</p>
+        <div class="hero-cta">
+          <a href="#how" class="btn btn-primary" data-i18n="hero.cta.primary">See how it works</a>
+          <span class="store-badge" aria-hidden="true">
+            <span class="ico">🍎</span>
+            <span class="txt"><small data-i18n="hero.badge.ios">Coming soon</small><strong data-i18n="hero.badge.ios.store">App Store</strong></span>
+          </span>
+          <span class="store-badge" aria-hidden="true">
+            <span class="ico">▶</span>
+            <span class="txt"><small data-i18n="hero.badge.android">Coming soon</small><strong data-i18n="hero.badge.android.store">Google Play</strong></span>
+          </span>
+        </div>
+        <p class="hero-note" data-i18n="hero.note">No accounts · No ads · Everything runs on your phone</p>
+      </div>
+
+      <div class="hero-visual">
+        <img class="phone back" src="assets/screens/crop.webp" width="295" height="640" loading="eager" data-i18n-attr='{"alt":"alt.hero.back"}' alt="Cropping a photo in the RubiPic app">
+        <img class="phone" src="assets/screens/method-closest.webp" width="295" height="640" loading="eager" data-i18n-attr='{"alt":"alt.hero.front"}' alt="Colorful cube mosaic preview in the RubiPic app">
+      </div>
+    </div>
+
+    <div class="cube-strip" aria-hidden="true">
+      <span class="cube-face red"></span>
+      <span class="cube-face yellow"></span>
+      <span class="cube-face blue"></span>
+      <span class="cube-face green"></span>
+      <span class="cube-face white"></span>
+      <span class="cube-face charcoal"></span>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="how.kicker">Simple workflow</span>
+        <h2 data-i18n="how.title">From photo to mosaic in a few steps</h2>
+        <p data-i18n="how.lead">Everything happens right on your phone — no internet, no uploads.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="shot"><img src="assets/screens/crop.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.step1"}' alt="Photo crop and rotate screen"></div>
+          <div class="num">1</div>
+          <h3 data-i18n="step1.title">Pick and crop a photo</h3>
+          <p data-i18n="step1.text">Choose an image from your gallery, take a new photo, or import a file. Crop, rotate, and pick a mosaic format in seconds.</p>
+        </div>
+        <div class="step reveal">
+          <div class="shot"><img src="assets/screens/cube-settings.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.step2"}' alt="Cube settings screen: size and colors"></div>
+          <div class="num">2</div>
+          <h3 data-i18n="step2.title">Set the cube and size</h3>
+          <p data-i18n="step2.text">Choose the cube size in millimeters, pick colors — including fully custom shades — and select a ready-made mosaic size with a real-world dimension in centimeters.</p>
+        </div>
+        <div class="step reveal">
+          <div class="shot"><img src="assets/screens/image-settings-basic.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.step3"}' alt="Image settings screen: brightness, contrast, saturation"></div>
+          <div class="num">3</div>
+          <h3 data-i18n="step3.title">Fine-tune the look</h3>
+          <p data-i18n="step3.text">Adjust brightness, contrast, and saturation (or hit Auto), and tweak individual colors when you need the mosaic to match the photo as closely as possible.</p>
+        </div>
+        <div class="step reveal">
+          <div class="shot"><img src="assets/screens/paywall-zoom.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.step4"}' alt="Finished mosaic screen with 1:1 preview"></div>
+          <div class="num">4</div>
+          <h3 data-i18n="step4.title">Print and build</h3>
+          <p data-i18n="step4.text">Generate the mosaic plan, print the instructions split across A4 pages, and place real Rubik's cubes on the grid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Methods -->
+  <section id="methods" class="alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="methods.kicker">Mosaic generation methods</span>
+        <h2 data-i18n="methods.title">Three ways to map your photo to cube colors</h2>
+        <p data-i18n="methods.lead">RubiPic offers several image-processing methods — each distributes colors and detail differently. Pick the one that suits your photo best.</p>
+      </div>
+
+      <div class="methods">
+        <div class="method-card reveal">
+          <div class="shot"><img src="assets/screens/method-dithering.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.method.dithering"}' alt="Mosaic preview generated with the Dithering method"></div>
+          <span class="tag" data-i18n="method.dithering.name">Dithering (ordered)</span>
+          <h3 data-i18n="method.dithering.name">Dithering (ordered)</h3>
+          <p data-i18n="method.dithering.text">Spreads the limited cube-color palette in a regular pattern, so tonal transitions and gradients look smoother and the mosaic keeps more detail in bright and dark areas of the photo.</p>
+        </div>
+        <div class="method-card reveal">
+          <div class="shot"><img src="assets/screens/method-closest.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.method.closest"}' alt="Mosaic preview generated with the Closest colours method"></div>
+          <span class="tag" data-i18n="method.closest.name">Closest colours</span>
+          <h3 data-i18n="method.closest.name">Closest colours</h3>
+          <p data-i18n="method.closest.text">Picks the nearest available cube color for every mosaic cell. Produces bold, high-contrast, "poster-like" blocks of color — great for portraits and photos with clear shapes.</p>
+        </div>
+        <div class="method-card reveal">
+          <div class="shot"><img src="assets/screens/method-grayscale.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.method.grayscale"}' alt="Mosaic preview generated with the Grayscale gradient method"></div>
+          <span class="tag" data-i18n="method.grayscale.name">Grayscale gradient</span>
+          <h3 data-i18n="method.grayscale.name">Grayscale gradient</h3>
+          <p data-i18n="method.grayscale.text">Converts the image to grayscale first, then maps brightness onto the chosen cube colors as a tonal gradient. The result feels more painterly and calmer in color.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What you get -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="getit.kicker">What you actually get</span>
+      </div>
+
+      <div class="getit-grid reveal">
+        <div class="getit-media"><img src="assets/screens/grid-labels.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.getit1"}' alt="Printed grid with cube color labels"></div>
+        <div class="getit-text">
+          <h3 data-i18n="getit.title1">A grid where every square is one cube</h3>
+          <p data-i18n="getit.text1">Each cell of the printed sheet shows which cube color belongs there. Just place a cube of the matching color on that square.</p>
+          <ul class="checklist">
+            <li data-i18n="getit.li1a">Color labels printed in every grid cell</li>
+            <li data-i18n="getit.li1b">X / Y coordinates around the edges keep you from losing your place</li>
+            <li data-i18n="getit.li1c">Large mosaics are split across multiple A4 sheets</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="getit-grid reverse reveal" style="margin-top: 60px;">
+        <div class="getit-media"><img src="assets/screens/mosaic-size.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.getit2"}' alt="Mosaic size picker with real-world dimensions in cm"></div>
+        <div class="getit-text">
+          <h3 data-i18n="getit.title2">Printed at true 1:1 scale</h3>
+          <p data-i18n="getit.text2">The instructions are generated at real-world scale, so the printed grid matches the physical size of your cubes exactly. Tile the pages together and start placing cubes.</p>
+          <ul class="checklist">
+            <li data-i18n="getit.li2a">Snap cubes into the grid row by row</li>
+            <li data-i18n="getit.li2b">Works with the standard Rubik's cubes you already own</li>
+            <li data-i18n="getit.li2c">Frame the finished mosaic and hang it on your wall</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="features.kicker">Features</span>
+        <h2 data-i18n="features.title">Everything you need to build a cube mosaic</h2>
+        <p data-i18n="features.lead">Powerful options, fully on-device and with nothing collected.</p>
+      </div>
+
+      <div class="features">
+        <div class="feature reveal"><div class="ico">🎨</div><h3 data-i18n="feature1.title">Custom cube colors</h3><p data-i18n="feature1.text">Any number of colors from an HSV picker or HEX code — match the palette to the cubes you actually own.</p></div>
+        <div class="feature reveal"><div class="ico">🧊</div><h3 data-i18n="feature2.title">Adjustable cube size</h3><p data-i18n="feature2.text">Set the cube size in millimeters and see the real-world mosaic dimensions and cube count update live.</p></div>
+        <div class="feature reveal"><div class="ico">📐</div><h3 data-i18n="feature3.title">Ready-made mosaic sizes</h3><p data-i18n="feature3.text">Choose from a list of preset grid sizes with real centimeter dimensions and cube counts — or set your own.</p></div>
+        <div class="feature reveal"><div class="ico">🌗</div><h3 data-i18n="feature4.title">3 generation methods</h3><p data-i18n="feature4.text">Dithering, closest colors, or grayscale gradient — each method maps detail and contrast from your photo differently.</p></div>
+        <div class="feature reveal"><div class="ico">🎚️</div><h3 data-i18n="feature5.title">Brightness & color correction</h3><p data-i18n="feature5.text">Brightness, contrast, saturation, and per-color correction (or one-tap Auto) to get the mosaic as close to the original as possible.</p></div>
+        <div class="feature reveal"><div class="ico">🖨️</div><h3 data-i18n="feature6.title">A4 print with coordinates</h3><p data-i18n="feature6.text">Instructions at 1:1 scale, split across A4 pages, with color labels and X/Y coordinates on every sheet.</p></div>
+        <div class="feature reveal"><div class="ico">🖤</div><h3 data-i18n="feature7.title">Color or black & white print</h3><p data-i18n="feature7.text">Print a full-color version or a black-and-white one with labeled colors — perfect if you don't own a color printer or just want to save ink.</p></div>
+        <div class="feature reveal"><div class="ico">🖼️</div><h3 data-i18n="feature8.title">Multiple photo sources</h3><p data-i18n="feature8.text">Use a photo from your gallery, your camera, or import a file — with crop and rotate in a couple of taps.</p></div>
+        <div class="feature reveal"><div class="ico">🔒</div><h3 data-i18n="feature9.title">100% private</h3><p data-i18n="feature9.text">No accounts, no backend, no tracking. Your photos never leave your device.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inside the app gallery -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="gallery.kicker">Inside the app</span>
+        <h2 data-i18n="gallery.title">Fine-tune every detail of the mosaic</h2>
+        <p data-i18n="gallery.lead">Pick a fully custom cube color from an HSV/HEX picker, or correct each color individually to get the mosaic as accurate as possible.</p>
+      </div>
+
+      <div class="gallery reveal">
+        <figure>
+          <img src="assets/screens/color-picker.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.gallery1"}' alt="HSV and HEX cube color picker">
+          <figcaption data-i18n="gallery1.caption">Custom cube color (HSV / HEX)</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screens/image-settings-channels.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.gallery2"}' alt="Brightness correction for individual colors">
+          <figcaption data-i18n="gallery2.caption">Per-color brightness correction</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / Paywall -->
+  <section id="pricing" class="alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="paywall.kicker">Pricing</span>
+        <h2 data-i18n="paywall.title">Free to create and preview — pay only to export</h2>
+        <p data-i18n="paywall.lead">Build and browse as many mosaics as you like, completely free. No ads, no subscriptions.</p>
+      </div>
+
+      <div class="paywall-grid reveal">
+        <div class="paywall-shot">
+          <div class="frame"><img src="assets/screens/print-color.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.paywall.color"}' alt="Color print of the mosaic instructions"></div>
+          <p class="label"><span class="dot color"></span><span data-i18n="paywall.color.label">Color version</span></p>
+          <p class="note" data-i18n="paywall.color.note">A full preview in the real cube colors — ideal if you own a color printer.</p>
+        </div>
+        <div class="paywall-shot">
+          <div class="frame"><img src="assets/screens/print-bw.webp" width="295" height="640" loading="lazy" data-i18n-attr='{"alt":"alt.paywall.bw"}' alt="Black and white print of the instructions with color labels"></div>
+          <p class="label"><span class="dot bw"></span><span data-i18n="paywall.bw.label">Black & white version with labels</span></p>
+          <p class="note" data-i18n="paywall.bw.note">The same plan printed in grayscale, with a color label in every cell — saves ink and works on any printer.</p>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <div class="price-card reveal">
+          <span class="price-tag" data-i18n="price1.tag">Single export</span>
+          <h3 data-i18n="price1.name">Single export</h3>
+          <p class="price muted" data-i18n="price1.price">App Store pricing</p>
+          <ul>
+            <li data-i18n="price1.li1">Create and preview for free</li>
+            <li data-i18n="price1.li2">Export one print-ready PDF</li>
+            <li data-i18n="price1.li3">Pay only when you're ready</li>
+          </ul>
+        </div>
+        <div class="price-card featured reveal">
+          <span class="price-tag" data-i18n="price2.badge">Best value</span>
+          <h3 data-i18n="price2.name">Lifetime unlock</h3>
+          <p class="price muted" data-i18n="price2.price">one-time</p>
+          <ul>
+            <li data-i18n="price2.li1">Unlimited PDF exports forever</li>
+            <li data-i18n="price2.li2">All cube colors and sizes</li>
+            <li data-i18n="price2.li3">Pay once — no subscription</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pricing-note" data-i18n="pricing.note">Prices are shown in the App Store in your local currency. Secure in-app payment — no redirects.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="faq.kicker">FAQ</span>
+        <h2 data-i18n="faq.title">Frequently asked questions</h2>
+      </div>
+
+      <div class="faq reveal">
+        <details>
+          <summary data-i18n="faq1.q">How does RubiPic work?</summary>
+          <p data-i18n="faq1.a">You pick a photo, set the cube and mosaic size, and the app turns the image into a grid of cube colors using one of three methods. You then export a print-ready PDF and build the mosaic with real cubes.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq2.q">What do I actually print?</summary>
+          <p data-i18n="faq2.a">An instruction sheet: a grid where every cell has a labeled cube color, plus X/Y coordinates so you always know where you are. Place a cube of that color on the matching square.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq3.q">What cubes do I need?</summary>
+          <p data-i18n="faq3.a">Standard Rubik's cubes in the colors you choose in the app — including fully custom colors. You set the cube size in millimeters.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq4.q">Is the print really at 1:1 scale?</summary>
+          <p data-i18n="faq4.a">Yes. The PDF is generated at real-world scale, so the printed grid matches the physical size of your cubes. Just make sure your printer prints at 100% (no scaling).</p>
+        </details>
+        <details>
+          <summary data-i18n="faq5.q">Do I need a color printer?</summary>
+          <p data-i18n="faq5.a">No. Besides the color version, you can print a black-and-white version with labeled colors in every cell — it works on any printer and saves ink.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq6.q">Do you collect my photos or data?</summary>
+          <p data-i18n="faq6.a">No. All image processing happens locally, on your device. There are no accounts, no servers, no analytics, and no tracking.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band reveal">
+        <h2 data-i18n="cta.title">Ready to build your first cube mosaic?</h2>
+        <p data-i18n="cta.text">Download RubiPic and turn a favorite photo into artwork made of Rubik's cubes.</p>
+        <div class="store-badges" style="justify-content:center;">
+          <span class="store-badge" aria-hidden="true">
+            <span class="ico">🍎</span>
+            <span class="txt"><small data-i18n="hero.badge.ios">Coming soon</small><strong data-i18n="hero.badge.ios.store">App Store</strong></span>
+          </span>
+          <span class="store-badge" aria-hidden="true">
+            <span class="ico">▶</span>
+            <span class="txt"><small data-i18n="hero.badge.android">Coming soon</small><strong data-i18n="hero.badge.android.store">Google Play</strong></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/icons/logo.webp" width="44" height="44" alt="RubiPic logo">
+          <strong>RubiPic</strong>
+        </div>
+        <p class="muted" data-i18n="footer.tagline">Turn your photos into print-ready Rubik's Cube mosaics.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.product">Product</h4>
+        <a href="#how" data-i18n="nav.how">How it works</a>
+        <a href="#methods" data-i18n="nav.methods">Methods</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legal">Legal</h4>
+        <span class="footer-soon muted" data-i18n="footer.privacy">Privacy Policy</span><span class="muted"> — <span data-i18n="footer.legal.soon">Coming soon</span></span><br>
+        <span class="footer-soon muted" data-i18n="footer.terms">Terms of Use</span><span class="muted"> — <span data-i18n="footer.legal.soon">Coming soon</span></span><br>
+        <a href="mailto:szaroczarnytrzmiel@gmail.com" data-i18n="footer.contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> <span data-i18n="footer.rights">RubiPic · All rights reserved.</span></span>
+      <span data-i18n="footer.by">By Hubert Przychodniak</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
