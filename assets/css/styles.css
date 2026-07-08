@@ -108,25 +108,6 @@ a { color: inherit; text-decoration: none; }
 
 .btn-sm { padding: 10px 18px; font-size: .92rem; }
 
-/* store badges */
-.store-badges { display: flex; flex-wrap: wrap; gap: 12px; }
-.store-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background: var(--charcoal);
-  color: #fff;
-  border-radius: var(--radius-sm);
-  padding: 10px 18px;
-  box-shadow: var(--shadow-sm);
-  opacity: .55;
-  cursor: default;
-}
-.store-badge .ico { font-size: 1.4rem; line-height: 1; }
-.store-badge .txt { display: flex; flex-direction: column; }
-.store-badge .txt small { font-size: .68rem; letter-spacing: .03em; color: #cfc7b8; }
-.store-badge .txt strong { font-size: .92rem; }
-
 /* ---------- header ---------- */
 .site-header {
   position: sticky;
@@ -495,45 +476,6 @@ section { padding: 64px 0; }
 .paywall-shot .label .dot.bw { background: #b8b8b8; border: 1px solid #888; }
 .paywall-shot p.note { margin: 6px 0 0; font-size: .88rem; color: var(--ink-muted); }
 
-.pricing {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 380px));
-  gap: 26px;
-  justify-content: center;
-}
-.price-card {
-  background: var(--card);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  padding: 32px 28px;
-  box-shadow: var(--shadow-sm);
-  position: relative;
-}
-.price-card.featured {
-  border: 2px solid var(--accent);
-  box-shadow: var(--shadow);
-}
-.price-tag {
-  position: absolute;
-  top: -14px; right: 22px;
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-weight: 700;
-  font-size: .78rem;
-  letter-spacing: .04em;
-  padding: 5px 13px;
-  border-radius: 999px;
-}
-.price-card h3 { margin: 0 0 6px; font-size: 1.4rem; }
-.price-card .price { font-size: 2.1rem; font-weight: 700; margin: 10px 0; }
-.price-card .price small { font-size: .95rem; font-weight: 600; color: var(--ink-muted); }
-.price-card ul { list-style: none; padding: 0; margin: 18px 0 0; }
-.price-card li { padding: 7px 0 7px 26px; position: relative; color: var(--ink-soft); }
-.price-card li::before {
-  content: "✓"; position: absolute; left: 0; color: var(--accent-strong); font-weight: 700;
-}
-.pricing-note { text-align: center; color: var(--ink-muted); margin-top: 22px; font-size: .92rem; }
-
 /* faq */
 .faq { max-width: 800px; margin: 0 auto; }
 .faq details {
@@ -724,7 +666,6 @@ section { padding: 64px 0; }
   }
   .steps { grid-template-columns: 1fr; }
   .features { grid-template-columns: 1fr; }
-  .pricing { grid-template-columns: 1fr; }
   .paywall-grid { grid-template-columns: 1fr; max-width: 320px; }
   .footer-grid { grid-template-columns: 1fr; }
   .cta-band { padding: 40px 22px; }
