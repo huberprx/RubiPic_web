@@ -347,6 +347,13 @@ section { padding: 64px 0; }
 .step h3 { margin: 0 0 8px; font-size: 1.12rem; }
 .step p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
 
+/* wide step card — a workflow step with two side-by-side preview
+   shots (e.g. color vs black & white print) instead of a single one */
+.step.step-wide { grid-column: 1 / -1; text-align: center; }
+.step.step-wide .paywall-grid { margin: 0 0 16px; }
+.step.step-wide .num { margin: 0 auto 12px; }
+.step.step-wide p { max-width: 60ch; margin-left: auto; margin-right: auto; }
+
 /* method cards */
 .methods {
   display: grid;
@@ -504,7 +511,6 @@ section { padding: 64px 0; }
 .paywall-shot .label .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
 .paywall-shot .label .dot.color { background: linear-gradient(135deg, var(--cube-red), var(--cube-blue) 50%, var(--cube-green)); }
 .paywall-shot .label .dot.bw { background: #b8b8b8; border: 1px solid #888; }
-.paywall-shot p.note { margin: 6px 0 0; font-size: .88rem; color: var(--ink-muted); }
 
 /* faq */
 .faq { max-width: 800px; margin: 0 auto; }
