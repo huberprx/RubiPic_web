@@ -45,8 +45,20 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
+
+/* App screenshots are always 295:640 — lock the ratio explicitly so no
+   layout/CSS combination can ever stretch or squash them. */
+.phone,
+.step .shot img,
+.method-card .shot img,
+.getit-media img,
+.gallery figure img,
+.paywall-shot .frame img {
+  aspect-ratio: 295 / 640;
+  object-fit: cover;
+}
 
 .wrap {
   width: 100%;
@@ -197,7 +209,7 @@ a { color: inherit; text-decoration: none; }
 .nav-toggle span::after { position: absolute; top: 6px; }
 
 /* ---------- hero ---------- */
-.hero { padding: 70px 0 40px; overflow: hidden; }
+.hero { position: relative; padding: 70px 0 40px; overflow: hidden; }
 .hero-grid {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
@@ -289,7 +301,7 @@ section { padding: 64px 0; }
   color: var(--accent-strong);
 }
 
-.alt { background: var(--bg-soft); }
+.alt { position: relative; background: var(--bg-soft); overflow: hidden; }
 
 /* steps */
 .steps {
@@ -549,6 +561,8 @@ section { padding: 64px 0; }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq details p { margin: 0 0 18px; color: var(--ink-soft); }
 
+.cta-section { position: relative; overflow: hidden; }
+
 /* cta band */
 .cta-band {
   background: linear-gradient(135deg, #1c1820 0%, #2b2530 100%);
@@ -597,6 +611,66 @@ section { padding: 64px 0; }
 .legal-wrap h1 { font-size: 2rem; margin-bottom: 14px; }
 .legal-wrap p { color: var(--ink-soft); font-size: 1.05rem; }
 .back-link { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--accent-strong); margin-bottom: 20px; }
+
+/* ---------- decorative background Rubik's cubes ---------- */
+/* Pure CSS isometric cubes (no images) scattered around section backgrounds
+   so the "this is about Rubik's cube mosaics" idea reads instantly, even
+   before any text or screenshot is read. Purely decorative: hidden from
+   assistive tech, never intercepts clicks, sits behind real content. */
+.deco-cube {
+  --cube-size: 48px;
+  position: absolute;
+  width: var(--cube-size);
+  height: var(--cube-size);
+  perspective: 500px;
+  pointer-events: none;
+  z-index: 0;
+  animation: deco-cube-float 9s ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+.deco-cube__body {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--rx, -28deg)) rotateY(var(--ry, 35deg));
+}
+.deco-cube__face {
+  display: block;
+  position: absolute;
+  inset: 0;
+  border-radius: calc(var(--cube-size) * 0.09);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.18);
+  background-image:
+    repeating-linear-gradient(to right, rgba(0, 0, 0, 0.22) 0 1.5px, transparent 1.5px calc(100% / 3)),
+    repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.22) 0 1.5px, transparent 1.5px calc(100% / 3));
+}
+.deco-cube__face--top {
+  background-color: var(--f-top, var(--cube-white));
+  transform: rotateX(90deg) translateZ(calc(var(--cube-size) / 2));
+}
+.deco-cube__face--front {
+  background-color: var(--f-front, var(--cube-red));
+  transform: translateZ(calc(var(--cube-size) / 2));
+}
+.deco-cube__face--side {
+  background-color: var(--f-side, var(--cube-blue));
+  transform: rotateY(90deg) translateZ(calc(var(--cube-size) / 2));
+}
+
+@keyframes deco-cube-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(5deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deco-cube { animation: none; }
+}
+
+@media (max-width: 640px) {
+  .deco-cube { display: none; }
+}
 
 /* reveal animation */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; }
