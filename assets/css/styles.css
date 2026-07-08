@@ -209,7 +209,7 @@ a { color: inherit; text-decoration: none; }
 .nav-toggle span::after { position: absolute; top: 6px; }
 
 /* ---------- hero ---------- */
-.hero { position: relative; padding: 70px 0 40px; overflow: hidden; }
+.hero { position: relative; padding: 70px 0 40px; overflow: hidden; isolation: isolate; }
 .hero-grid {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
@@ -248,7 +248,12 @@ a { color: inherit; text-decoration: none; }
 
 .hero-visual { position: relative; display: flex; justify-content: center; }
 .phone {
-  width: min(300px, 74%);
+  /* box-sizing: content-box so the border is added *outside* the
+     295:640 aspect-ratio box instead of being carved out of it —
+     otherwise the 8px frame skews the ratio and object-fit:cover
+     ends up cropping the screenshot slightly. */
+  box-sizing: content-box;
+  width: min(284px, 74%);
   border-radius: 34px;
   box-shadow: var(--shadow-lg);
   border: 8px solid #14121a;
@@ -256,7 +261,7 @@ a { color: inherit; text-decoration: none; }
 }
 .phone.back {
   position: absolute;
-  width: min(250px, 62%);
+  width: min(234px, 62%);
   transform: rotate(-9deg) translate(-58%, 8%);
   left: 50%;
   filter: brightness(.97);
@@ -301,7 +306,7 @@ section { padding: 64px 0; }
   color: var(--accent-strong);
 }
 
-.alt { position: relative; background: var(--bg-soft); overflow: hidden; }
+.alt { position: relative; background: var(--bg-soft); overflow: hidden; isolation: isolate; }
 
 /* steps */
 .steps {
@@ -561,7 +566,7 @@ section { padding: 64px 0; }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq details p { margin: 0 0 18px; color: var(--ink-soft); }
 
-.cta-section { position: relative; overflow: hidden; }
+.cta-section { position: relative; overflow: hidden; isolation: isolate; }
 
 /* cta band */
 .cta-band {
@@ -624,7 +629,7 @@ section { padding: 64px 0; }
   height: var(--cube-size);
   perspective: 500px;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
   animation: deco-cube-float 9s ease-in-out infinite;
   animation-delay: var(--float-delay, 0s);
 }
