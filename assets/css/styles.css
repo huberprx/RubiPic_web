@@ -250,25 +250,54 @@ a { color: inherit; text-decoration: none; }
   opacity: .95;
 }
 
-/* cube-face divider strip */
+/* cube divider strip — small 3D cubes, same look as the decorative
+   background cubes, each turned to a slightly different angle so the
+   colored front sticker always faces the viewer. */
 .cube-strip {
   display: flex;
-  gap: 10px;
+  gap: 18px;
   justify-content: center;
-  padding: 26px 0;
+  padding: 30px 0;
   flex-wrap: wrap;
+  align-items: center;
 }
-.cube-face {
-  width: 34px; height: 34px;
-  border-radius: 8px;
-  box-shadow: var(--shadow-sm);
+.mini-cube {
+  --cube-size: 38px;
+  position: relative;
+  width: var(--cube-size);
+  height: var(--cube-size);
+  perspective: 320px;
 }
-.cube-face.red { background: var(--cube-red); }
-.cube-face.blue { background: var(--cube-blue); }
-.cube-face.green { background: var(--cube-green); }
-.cube-face.yellow { background: var(--cube-yellow); }
-.cube-face.white { background: var(--cube-white); border: 1px solid var(--card-border); }
-.cube-face.charcoal { background: var(--charcoal); }
+.mini-cube__body {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--rx, -20deg)) rotateY(var(--ry, -24deg));
+}
+.mini-cube__face {
+  display: block;
+  position: absolute;
+  inset: 0;
+  border-radius: calc(var(--cube-size) * 0.16);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  background-image:
+    repeating-linear-gradient(to right, rgba(0, 0, 0, 0.22) 0 1.2px, transparent 1.2px calc(100% / 3)),
+    repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.22) 0 1.2px, transparent 1.2px calc(100% / 3));
+}
+.mini-cube__face--top {
+  background-color: var(--f-top, var(--cube-white));
+  transform: rotateX(90deg) translateZ(calc(var(--cube-size) / 2));
+}
+.mini-cube__face--front {
+  background-color: var(--f-front, var(--cube-red));
+  transform: translateZ(calc(var(--cube-size) / 2));
+}
+.mini-cube__face--side {
+  background-color: var(--f-side, var(--cube-blue));
+  transform: rotateY(90deg) translateZ(calc(var(--cube-size) / 2));
+}
 
 /* ---------- sections ---------- */
 section { padding: 64px 0; }
