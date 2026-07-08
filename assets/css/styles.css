@@ -55,8 +55,7 @@ a { color: inherit; text-decoration: none; }
 .step .shot img,
 .method-card .shot img,
 .getit-media img,
-.gallery figure img,
-.paywall-shot .frame img {
+.gallery figure img {
   aspect-ratio: 295 / 640;
   object-fit: cover;
 }
@@ -322,7 +321,7 @@ section { padding: 64px 0; }
 /* steps */
 .steps {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
 .step {
@@ -346,13 +345,6 @@ section { padding: 64px 0; }
 .step .shot img { width: 100%; }
 .step h3 { margin: 0 0 8px; font-size: 1.12rem; }
 .step p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
-
-/* wide step card — a workflow step with two side-by-side preview
-   shots (e.g. color vs black & white print) instead of a single one */
-.step.step-wide { grid-column: 1 / -1; text-align: center; }
-.step.step-wide .paywall-grid { margin: 0 0 16px; }
-.step.step-wide .num { margin: 0 auto 12px; }
-.step.step-wide p { max-width: 60ch; margin-left: auto; margin-right: auto; }
 
 /* method cards */
 .methods {
@@ -485,32 +477,6 @@ section { padding: 64px 0; }
   padding: 10px 8px;
   background: var(--card);
 }
-
-/* paywall / pricing */
-.paywall-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px;
-  max-width: 640px;
-  margin: 0 auto 46px;
-}
-.paywall-shot { text-align: center; }
-.paywall-shot .frame {
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--card-border);
-  background: var(--card);
-}
-.paywall-shot .frame img { width: 100%; }
-.paywall-shot .label {
-  margin-top: 12px;
-  font-weight: 700;
-  font-size: .95rem;
-}
-.paywall-shot .label .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
-.paywall-shot .label .dot.color { background: linear-gradient(135deg, var(--cube-red), var(--cube-blue) 50%, var(--cube-green)); }
-.paywall-shot .label .dot.bw { background: #b8b8b8; border: 1px solid #888; }
 
 /* faq */
 .faq { max-width: 800px; margin: 0 auto; }
@@ -703,7 +669,6 @@ section { padding: 64px 0; }
   }
   .steps { grid-template-columns: 1fr; }
   .features { grid-template-columns: 1fr; }
-  .paywall-grid { grid-template-columns: 1fr; max-width: 320px; }
   .footer-grid { grid-template-columns: 1fr; }
   .cta-band { padding: 40px 22px; }
 }
