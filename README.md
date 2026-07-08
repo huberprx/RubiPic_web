@@ -8,6 +8,8 @@ Static site — plain HTML/CSS/JS, no build step, no framework, no dependencies.
 
 ```
 index.html                 Landing page (PL/EN, language switch in header)
+privacy.html               Privacy Policy (PL/EN, same language switch)
+terms.html                 Terms of Use (PL/EN, same language switch)
 assets/css/styles.css      All styles
 assets/js/translations.js  PL/EN copy dictionary
 assets/js/main.js          Language switching, mobile nav, scroll reveal
@@ -17,8 +19,6 @@ _originals/                Original, full-resolution PNG screenshots (kept local
 CNAME                      Custom domain for GitHub Pages: rubipic.app
 robots.txt / sitemap.xml   Basic SEO
 ```
-
-Privacy Policy and Terms of Use pages are intentionally not included yet — to be added later.
 
 ## Content & languages
 

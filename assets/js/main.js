@@ -30,9 +30,11 @@
       } catch (e) { /* ignore malformed attr map */ }
     });
 
-    if (dict["meta.title"]) document.title = dict["meta.title"];
+    var titleKey = document.body.getAttribute("data-title-key") || "meta.title";
+    var descKey = document.body.getAttribute("data-desc-key") || "meta.description";
+    if (dict[titleKey]) document.title = dict[titleKey];
     var metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && dict["meta.description"]) metaDesc.setAttribute("content", dict["meta.description"]);
+    if (metaDesc && dict[descKey]) metaDesc.setAttribute("content", dict[descKey]);
 
     document.querySelectorAll(".lang-toggle button").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);

@@ -116,7 +116,122 @@ window.RUBIPIC_I18N = {
     "footer.contact": "Kontakt",
     "footer.legal.soon": "Wkrótce",
     "footer.rights": "RubiPic · Wszystkie prawa zastrzeżone.",
-    "footer.by": "Autor: Hubert Przychodniak"
+    "footer.by": "Autor: Hubert Przychodniak",
+
+    "privacy.meta.title": "Polityka prywatności — RubiPic",
+    "privacy.meta.description": "Polityka prywatności aplikacji RubiPic: jakie dane przetwarza aplikacja, jakich uprawnień używa i jak działają zakupy w aplikacji.",
+    "privacy.back": "← Wróć na stronę główną",
+    "privacy.pageTitle": "Polityka prywatności RubiPic",
+    "privacy.updated": "Ostatnia aktualizacja: 8 lipca 2026",
+    "privacy.intro": "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób aplikacja RubiPic („Aplikacja”) postępuje z informacjami podczas korzystania z Aplikacji.",
+    "privacy.provider": "<strong>Dostawcą Aplikacji jest:</strong><br>Hubert Przychodniak<br>Sarbka 48<br>64-705 Czarnków, Polska<br>E-mail: <a href=\"mailto:szaroczarnytrzmiel@gmail.com\">szaroczarnytrzmiel@gmail.com</a>",
+
+    "privacy.s1.title": "1. Informacje ogólne",
+    "privacy.s1.p1": "RubiPic to aplikacja umożliwiająca przekształcanie zdjęć w gotowe do druku plany mozaik z kostek Rubika. Aplikacja działa w całości lokalnie, na Twoim urządzeniu. Możesz wybrać obraz z biblioteki zdjęć, zrobić zdjęcie aparatem lub zaimportować plik z obrazem. Aplikacja przetwarza następnie obraz na Twoim urządzeniu i generuje plik PDF do druku w skali 1:1.",
+    "privacy.s1.p2": "Nie prowadzimy kont użytkowników, nie utrzymujemy własnego serwera zaplecza ani nie zbieramy, ani nie przechowujemy celowo Twoich danych osobowych na naszych serwerach.",
+
+    "privacy.s2.title": "2. Informacje przetwarzane przez Aplikację",
+    "privacy.s2.p1": "Aplikacja może przetwarzać następujące informacje lokalnie na Twoim urządzeniu:",
+    "privacy.s2.list": "<li>obrazy wybrane przez Ciebie z biblioteki zdjęć, aparatu lub plików;</li><li>wygenerowane podglądy mozaiki oraz wygenerowane pliki PDF;</li><li>ustawienia aplikacji, takie jak język, jednostki, rozmiar i kolory kostek, rozmiar mozaiki oraz podobne preferencje;</li><li>informacje o statusie zakupu potrzebne do odblokowania funkcji „lifetime unlock” oraz do przywracania zakupów.</li>",
+    "privacy.s2.p2": "Obrazy i wygenerowane pliki są przetwarzane lokalnie na Twoim urządzeniu. Nie są przesyłane na nasze serwery ani do jakiejkolwiek strony trzeciej.",
+
+    "privacy.s3.title": "3. Uprawnienia dotyczące aparatu, zdjęć i plików",
+    "privacy.s3.p1": "Aplikacja może prosić o dostęp do:",
+    "privacy.s3.list": "<li><strong>Aparatu (kamery)</strong> — aby umożliwić zrobienie zdjęcia i użycie go do stworzenia mozaiki;</li><li><strong>Galerii zdjęć (odczyt)</strong> — aby umożliwić wybranie istniejącego zdjęcia do przetworzenia;</li><li><strong>Galerii zdjęć (zapis)</strong> — aby umożliwić zapisanie wygenerowanej mozaiki na Twoim urządzeniu, na Twoje wyraźne życzenie;</li><li><strong>Plików</strong> — aby umożliwić zaimportowanie pliku z obrazem.</li>",
+    "privacy.s3.p2": "Uprawnienia te służą wyłącznie zapewnieniu podstawowych funkcji Aplikacji. Możesz nimi zarządzać w ustawieniach swojego urządzenia w każdej chwili.",
+
+    "privacy.s4.title": "4. Zakupy w aplikacji",
+    "privacy.s4.p1": "Aplikacja oferuje jednorazowy zakup w aplikacji (tzw. „lifetime unlock”), obsługiwany w całości przez system płatności Apple App Store i/lub Google Play, w zależności od platformy, z której korzystasz.",
+    "privacy.s4.p2": "Nie mamy dostępu do danych Twojej karty płatniczej ani pełnych danych rozliczeniowych — są one przetwarzane wyłącznie przez Apple Inc. i/lub Google LLC, zgodnie z ich własnymi politykami prywatności: <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple</a>, <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google</a>.",
+    "privacy.s4.p3": "Aplikacja komunikuje się z App Store / Google Play wyłącznie w celu zweryfikowania statusu zakupu i umożliwienia jego przywrócenia (funkcja „Przywróć zakupy”).",
+
+    "privacy.s5.title": "5. Udostępnianie i drukowanie",
+    "privacy.s5.p1": "Aplikacja może umożliwić wydrukowanie lub udostępnienie wygenerowanego pliku PDF za pomocą funkcji systemowych dostępnych na Twoim urządzeniu. Udostępnianie następuje tylko wtedy, gdy sam zdecydujesz się skorzystać z opcji udostępniania lub drukowania.",
+    "privacy.s5.p2": "Gdy udostępniasz plik innej aplikacji lub usłudze, sposób postępowania z tym plikiem reguluje polityka prywatności wybranej aplikacji lub usługi.",
+
+    "privacy.s6.title": "6. Brak śledzenia, reklam i analityki",
+    "privacy.s6.p1": "Aplikacja nie zawiera żadnych narzędzi analitycznych, reklamowych ani śledzących (brak Google Analytics, Firebase, AdMob, Facebook SDK i podobnych). Nie profilujemy użytkowników i nie sprzedajemy, ani nie udostępniamy żadnych danych stronom trzecim w celach marketingowych.",
+
+    "privacy.s7.title": "7. Prywatność dzieci",
+    "privacy.s7.p1": "Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i świadomie nie zbiera danych osobowych od dzieci. Jeśli rodzic lub opiekun uważa, że dziecko przekazało nam dane osobowe, prosimy o kontakt na adres podany w punkcie 15.",
+
+    "privacy.s8.title": "8. Podstawa prawna przetwarzania (RODO)",
+    "privacy.s8.p1": "Jeśli zastosowanie ma Ogólne rozporządzenie o ochronie danych (RODO), podstawami prawnymi przetwarzania są:",
+    "privacy.s8.list": "<li>wykonanie umowy — gdy Aplikacja przetwarza informacje niezbędne do zapewnienia jej funkcji lub płatnych funkcjonalności;</li><li>Twoja zgoda — gdy udzielasz uprawnień urządzenia, takich jak dostęp do aparatu lub galerii zdjęć;</li><li>prawnie uzasadnione interesy — gdy jest to konieczne do utrzymania funkcjonalności i bezpieczeństwa Aplikacji.</li>",
+    "privacy.s8.p2": "Ponieważ Aplikacja nie korzysta z własnego systemu kont i nie przesyła Twoich obrazów na nasze serwery, praktycznie całe przetwarzanie odbywa się lokalnie na Twoim urządzeniu.",
+
+    "privacy.s9.title": "9. Przechowywanie danych",
+    "privacy.s9.p1": "Zdjęcia, wygenerowane mozaiki, pliki PDF i ustawienia są przechowywane lokalnie na Twoim urządzeniu wyłącznie w zakresie potrzebnym do działania Aplikacji.",
+    "privacy.s9.p2": "Dane lokalne możesz usunąć, kasując wygenerowane pliki, czyszcząc dane Aplikacji tam, gdzie urządzenie to umożliwia, lub odinstalowując Aplikację. Rejestry zakupów mogą być przechowywane przez Apple i/lub Google zgodnie z ich własnymi obowiązkami prawnymi i księgowymi.",
+
+    "privacy.s10.title": "10. Udostępnianie danych",
+    "privacy.s10.p1": "Nie sprzedajemy Twoich danych osobowych. Nie udostępniamy Twoich obrazów osobom trzecim z naszych serwerów, ponieważ nie przesyłamy ich na żadne serwery.",
+    "privacy.s10.p2": "Informacje mogą być przetwarzane przez Apple i/lub Google, gdy pobierasz Aplikację, dokonujesz zakupu w aplikacji, przywracasz zakupy lub korzystasz z usług App Store / Google Play. Apple i Google przetwarzają takie informacje zgodnie z własnymi politykami prywatności.",
+
+    "privacy.s11.title": "11. Przekazywanie danych za granicę",
+    "privacy.s11.p1": "Nie przekazujemy Twoich obrazów ani wygenerowanych mozaik na nasze serwery. Apple i/lub Google mogą przetwarzać informacje związane z App Store / Google Play i zakupami w krajach poza krajem Twojego zamieszkania, zgodnie z własnymi warunkami prywatności i prawnymi.",
+
+    "privacy.s12.title": "12. Twoje prawa",
+    "privacy.s12.p1": "Ponieważ Aplikacja nie zbiera ani nie przechowuje danych osobowych poza Twoim urządzeniem, w praktyce nie przetwarzamy danych, do których odnosiłyby się poniższe prawa — mogą one jednak mieć zastosowanie w ograniczonym zakresie. Jeśli zastosowanie ma RODO, CCPA lub inne obowiązujące przepisy o ochronie prywatności, możesz mieć prawo do:",
+    "privacy.s12.list": "<li>żądania dostępu do swoich danych osobowych;</li><li>żądania sprostowania swoich danych osobowych;</li><li>żądania usunięcia swoich danych osobowych;</li><li>sprzeciwu wobec określonego przetwarzania lub jego ograniczenia;</li><li>wycofania zgody, gdy przetwarzanie opiera się na zgodzie;</li><li>wniesienia skargi do organu ochrony danych.</li>",
+    "privacy.s12.p2": "W Polsce właściwym organem jest Prezes Urzędu Ochrony Danych Osobowych (UODO). Aby skorzystać ze swoich praw, skontaktuj się z nami pod adresem podanym w punkcie 15 — odpowiemy w rozsądnym terminie, nie dłuższym niż 30 dni.",
+
+    "privacy.s13.title": "13. Bezpieczeństwo",
+    "privacy.s13.p1": "Korzystamy z funkcji bezpieczeństwa zapewnianych przez Twoje urządzenie i system operacyjny. Ponieważ przetwarzanie obrazów odbywa się lokalnie, Twoje zdjęcia pozostają na Twoim urządzeniu, chyba że sam zdecydujesz się je udostępnić lub wyeksportować. Żadna metoda elektronicznego przechowywania ani przesyłania danych nie jest całkowicie bezpieczna, jednak staramy się ograniczać przetwarzanie do tego, co niezbędne do działania Aplikacji.",
+
+    "privacy.s14.title": "14. Zmiany Polityki Prywatności",
+    "privacy.s14.p1": "Zastrzegamy sobie prawo do aktualizacji niniejszej polityki. O zmianach poinformujemy poprzez aktualizację daty „Ostatnia aktualizacja” na górze tego dokumentu oraz, jeśli to możliwe, w treści samej Aplikacji.",
+
+    "privacy.s15.title": "15. Kontakt",
+    "privacy.s15.p1": "W sprawach dotyczących niniejszej Polityki prywatności lub sposobu przetwarzania danych przez Aplikację, skontaktuj się z nami:",
+
+    "terms.meta.title": "Regulamin — RubiPic",
+    "terms.meta.description": "Regulamin korzystania z aplikacji RubiPic: licencja, zakupy w aplikacji, własność intelektualna oraz minimalne warunki wymagane przez Apple.",
+    "terms.back": "← Wróć na stronę główną",
+    "terms.pageTitle": "Regulamin korzystania z aplikacji RubiPic",
+    "terms.updated": "Ostatnia aktualizacja: 8 lipca 2026",
+
+    "terms.s1.title": "1. Postanowienia ogólne",
+    "terms.s1.p1": "Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej RubiPic („Aplikacja”), udostępnianej przez Huberta Przychodniaka („Deweloper”, „my”), za pośrednictwem Apple App Store oraz Google Play. Pobranie lub korzystanie z Aplikacji oznacza akceptację niniejszego Regulaminu.",
+
+    "terms.s2.title": "2. Opis usługi",
+    "terms.s2.p1": "Aplikacja umożliwia przekształcanie zdjęć użytkownika w graficzne wzory mozaikowe, symulujące ułożenie z kolorowych kostek do gry oraz kostek łamigłówkowych typu 3×3 („puzzle cube”). Wynik generowany jest wyłącznie lokalnie, na urządzeniu użytkownika.",
+    "terms.s2.p2": "Aplikacja nie jest powiązana, sponsorowana ani autoryzowana przez żadnego producenta fizycznych kostek do gry ani łamigłówek 3×3, w tym Rubik's Brand Ltd. Wszelkie odniesienia do popularnych typów łamigłówek 3×3 mają charakter wyłącznie opisowy i służą wskazaniu efektu wizualnego, jaki użytkownik może uzyskać, a nie sugerowaniu jakiejkolwiek współpracy z właścicielami odpowiednich znaków towarowych.",
+
+    "terms.s3.title": "3. Licencja",
+    "terms.s3.p1": "Udzielamy Ci niewyłącznej, nieprzenoszalnej licencji na korzystanie z Aplikacji na urządzeniach z systemem iOS/Android, które posiadasz lub kontrolujesz, wyłącznie do użytku osobistego, zgodnie z regulaminami sklepu (Apple App Store / Google Play), z którego Aplikacja została pobrana.",
+
+    "terms.s4.title": "4. Zakupy w aplikacji",
+    "terms.s4.p1": "Aplikacja oferuje jednorazowy, bezterminowy zakup odblokowujący pełną funkcjonalność („lifetime unlock”). Zakup jest realizowany i rozliczany wyłącznie przez Apple App Store lub Google Play, zgodnie z ich regulaminami płatności.",
+    "terms.s4.p2": "Zwroty należy zgłaszać bezpośrednio do Apple lub Google, zgodnie z ich procedurami — Deweloper nie przetwarza płatności samodzielnie.",
+    "terms.s4.p3": "Zakup można przywrócić na innym urządzeniu powiązanym z tym samym kontem Apple/Google poprzez funkcję „Przywróć zakupy”.",
+
+    "terms.s5.title": "5. Własność intelektualna",
+    "terms.s5.p1": "Zdjęcia wgrywane przez Ciebie pozostają Twoją wyłączną własnością — Deweloper nie rości sobie do nich żadnych praw i nie ma do nich dostępu.",
+    "terms.s5.p2": "Kod, design, logo i nazwa Aplikacji stanowią własność Dewelopera i są chronione prawem autorskim. Zabronione jest kopiowanie, dekompilowanie i odtwarzanie kodu źródłowego Aplikacji, poza zakresem dozwolonym przez bezwzględnie obowiązujące przepisy prawa.",
+
+    "terms.s6.title": "6. Obowiązki użytkownika",
+    "terms.s6.p1": "Zobowiązujesz się korzystać z Aplikacji zgodnie z prawem oraz niniejszym Regulaminem, w szczególności nie wykorzystywać jej do przetwarzania treści niezgodnych z prawem, obraźliwych lub naruszających prawa osób trzecich.",
+
+    "terms.s7.title": "7. Brak gwarancji i ograniczenie odpowiedzialności",
+    "terms.s7.p1": "Aplikacja dostarczana jest „tak jak jest” („AS IS”), bez jakichkolwiek gwarancji, wyraźnych lub dorozumianych. W maksymalnym zakresie dozwolonym przez prawo Deweloper nie ponosi odpowiedzialności za szkody pośrednie, uboczne lub wynikowe powstałe w związku z korzystaniem z Aplikacji.",
+    "terms.s7.p2": "Powyższe nie wyłącza uprawnień konsumenckich przysługujących Ci na mocy bezwzględnie obowiązujących przepisów prawa kraju Twojego zamieszkania.",
+
+    "terms.s8.title": "8. Minimalne warunki wymagane przez Apple (dotyczy użytkowników iOS)",
+    "terms.s8.p1": "Niniejsza sekcja stanowi wymagane przez Apple Inc. minimalne warunki licencji dla aplikacji dystrybuowanych przez App Store:",
+    "terms.s8.list": "<li>Niniejsza umowa licencyjna zawierana jest wyłącznie między Tobą a Deweloperem, a nie z Apple — Apple nie ponosi odpowiedzialności za Aplikację ani jej treść.</li><li>Licencja ograniczona jest do użytku na urządzeniach marki Apple, których jesteś właścicielem lub które kontrolujesz, zgodnie z Regulaminem Usług App Store.</li><li>Za wsparcie techniczne i utrzymanie Aplikacji odpowiada wyłącznie Deweloper — Apple nie ma takiego obowiązku.</li><li>W przypadku niezgodności Aplikacji z jakąkolwiek gwarancją, możesz powiadomić Apple, a Apple zwróci Ci cenę zakupu Aplikacji (jeśli była płatna) — jest to jedyna gwarancja udzielana przez Apple, w maksymalnym zakresie dozwolonym prawem.</li><li>Za rozpatrywanie wszelkich Twoich roszczeń lub roszczeń osób trzecich związanych z Aplikacją (w tym roszczeń dot. odpowiedzialności za produkt, zgodności z przepisami czy ochrony konsumentów) odpowiada wyłącznie Deweloper.</li><li>W przypadku roszczeń osób trzecich, że Aplikacja narusza ich prawa własności intelektualnej, za zbadanie, obronę i rozstrzygnięcie takiego roszczenia odpowiada wyłącznie Deweloper.</li><li>Oświadczasz, że nie znajdujesz się w kraju objętym embargiem USA ani na liście podmiotów objętych ograniczeniami handlowymi USA.</li><li>Pytania, skargi lub roszczenia dotyczące Aplikacji należy kierować do Dewelopera na adres podany w punkcie 11.</li><li>Apple oraz spółki zależne Apple są podmiotami trzecimi uprawnionymi do niniejszej umowy i mają prawo do jej egzekwowania wobec Ciebie.</li>",
+
+    "terms.s9.title": "9. Reklamacje",
+    "terms.s9.p1": "Reklamacje dotyczące działania Aplikacji (niezwiązane z płatnością, którą obsługuje Apple/Google) można zgłaszać na adres podany w punkcie 11. Rozpatrzymy je w terminie do 14 dni roboczych.",
+
+    "terms.s10.title": "10. Prawo właściwe",
+    "terms.s10.p1": "Niniejszy Regulamin podlega prawu Rzeczypospolitej Polskiej, z zastrzeżeniem bezwzględnie obowiązujących przepisów o ochronie konsumentów kraju Twojego zamieszkania.",
+
+    "terms.s11.title": "11. Kontakt",
+    "terms.s11.p1": "W przypadku pytań, skarg lub roszczeń dotyczących Aplikacji lub niniejszego Regulaminu, skontaktuj się z nami:",
+
+    "terms.s12.title": "12. Zmiany Regulaminu",
+    "terms.s12.p1": "Zastrzegamy sobie prawo do zmiany niniejszego Regulaminu. Aktualna wersja zawsze dostępna jest pod adresem <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> oraz w Aplikacji, w sekcji Ustawienia."
   },
   en: {
     "meta.title": "RubiPic — turn your photos into Rubik's Cube mosaics",
@@ -232,6 +347,121 @@ window.RUBIPIC_I18N = {
     "footer.contact": "Contact",
     "footer.legal.soon": "Coming soon",
     "footer.rights": "RubiPic · All rights reserved.",
-    "footer.by": "By Hubert Przychodniak"
+    "footer.by": "By Hubert Przychodniak",
+
+    "privacy.meta.title": "Privacy Policy — RubiPic",
+    "privacy.meta.description": "RubiPic's Privacy Policy: what data the app processes, which permissions it uses, and how in-app purchases work.",
+    "privacy.back": "← Back to home",
+    "privacy.pageTitle": "RubiPic Privacy Policy",
+    "privacy.updated": "Last updated: July 8, 2026",
+    "privacy.intro": "This Privacy Policy explains how RubiPic (\"the App\") handles information when you use the App.",
+    "privacy.provider": "<strong>The App is provided by:</strong><br>Hubert Przychodniak<br>Sarbka 48<br>64-705 Czarnków, Poland<br>Email: <a href=\"mailto:szaroczarnytrzmiel@gmail.com\">szaroczarnytrzmiel@gmail.com</a>",
+
+    "privacy.s1.title": "1. Overview",
+    "privacy.s1.p1": "RubiPic is an app that turns your photos into print-ready Rubik's Cube mosaic plans. The App works entirely locally, on your device. You can choose an image from your photo library, take a photo with your camera, or import an image file. The App then processes the image on your device and generates a print-ready PDF at true 1:1 scale.",
+    "privacy.s1.p2": "We do not operate user accounts, we do not run our own backend server, and we do not intentionally collect or store your personal data on our servers.",
+
+    "privacy.s2.title": "2. Information Processed by the App",
+    "privacy.s2.p1": "The App may process the following information locally on your device:",
+    "privacy.s2.list": "<li>images selected by you from your photo library, camera, or files;</li><li>generated mosaic previews and generated PDF files;</li><li>app settings such as language, units, cube size and colors, mosaic size, and similar preferences;</li><li>information about in-app purchase status needed to unlock the \"lifetime unlock\" feature and to restore purchases.</li>",
+    "privacy.s2.p2": "Images and generated files are processed locally on your device. They are not uploaded to our servers or to any third party.",
+
+    "privacy.s3.title": "3. Camera, Photos and Files Permissions",
+    "privacy.s3.p1": "The App may request access to:",
+    "privacy.s3.list": "<li><strong>Camera</strong> — to let you take a photo and use it to create a mosaic;</li><li><strong>Photo library (read)</strong> — to let you select an existing photo to process;</li><li><strong>Photo library (write)</strong> — to let you save the generated mosaic to your device, at your explicit request;</li><li><strong>Files</strong> — to let you import an image file.</li>",
+    "privacy.s3.p2": "These permissions are used only to provide the App's core functionality. You can manage them in your device settings at any time.",
+
+    "privacy.s4.title": "4. In-App Purchases",
+    "privacy.s4.p1": "The App offers a one-time in-app purchase (a \"lifetime unlock\"), handled entirely by the Apple App Store and/or Google Play payment system, depending on the platform you use.",
+    "privacy.s4.p2": "We do not have access to your payment card details or full billing information — these are processed solely by Apple Inc. and/or Google LLC, according to their own privacy policies: <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple</a>, <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google</a>.",
+    "privacy.s4.p3": "The App communicates with the App Store / Google Play only to verify purchase status and to allow it to be restored (the \"Restore purchases\" feature).",
+
+    "privacy.s5.title": "5. Sharing and Printing",
+    "privacy.s5.p1": "The App may let you print or share a generated PDF using system features available on your device. Sharing only happens when you choose to use the share or print option.",
+    "privacy.s5.p2": "When you share a file with another app or service, the handling of that file is governed by the privacy policy of that app or service.",
+
+    "privacy.s6.title": "6. No Tracking, Ads, or Analytics",
+    "privacy.s6.p1": "The App does not contain any analytics, advertising, or tracking tools (no Google Analytics, Firebase, AdMob, Facebook SDK, or similar). We do not profile users and we do not sell or share any data with third parties for marketing purposes.",
+
+    "privacy.s7.title": "7. Children's Privacy",
+    "privacy.s7.p1": "The App is not directed at children under the age of 13 and does not knowingly collect personal data from children. If a parent or guardian believes their child has provided us with personal data, please contact us at the address given in section 15.",
+
+    "privacy.s8.title": "8. Legal Basis for Processing (GDPR)",
+    "privacy.s8.p1": "If the General Data Protection Regulation (GDPR) applies, the legal bases for processing are:",
+    "privacy.s8.list": "<li>performance of a contract — when the App processes information necessary to provide its features or paid functionality;</li><li>your consent — when you grant device permissions such as camera or photo library access;</li><li>legitimate interests — where necessary to maintain the App's functionality and security.</li>",
+    "privacy.s8.p2": "Because the App does not use our own backend account system and does not upload your images to our servers, virtually all processing happens locally on your device.",
+
+    "privacy.s9.title": "9. Data Retention",
+    "privacy.s9.p1": "Photos, generated mosaics, PDF files, and settings are stored locally on your device only for as long as needed for the App to function.",
+    "privacy.s9.p2": "You can delete local data by deleting generated files, clearing the App's data where supported by your device, or uninstalling the App. Purchase records may be retained by Apple and/or Google according to their own legal and accounting obligations.",
+
+    "privacy.s10.title": "10. Data Sharing",
+    "privacy.s10.p1": "We do not sell your personal data. We do not share your images with third parties from our own servers, because we do not upload them to any servers.",
+    "privacy.s10.p2": "Information may be processed by Apple and/or Google when you download the App, make an in-app purchase, restore purchases, or use App Store / Google Play services. Apple and Google process such information according to their own privacy policies.",
+
+    "privacy.s11.title": "11. International Transfers",
+    "privacy.s11.p1": "We do not transfer your images or generated mosaics to our own servers. Apple and/or Google may process App Store / Google Play and purchase-related information in countries outside your country of residence, according to their own privacy and legal terms.",
+
+    "privacy.s12.title": "12. Your Rights",
+    "privacy.s12.p1": "Because the App does not collect or store personal data outside your device, in practice we process little to no data to which the rights below would apply — they may nonetheless apply in a limited scope. If the GDPR, CCPA, or other applicable privacy laws apply, you may have the right to:",
+    "privacy.s12.list": "<li>request access to your personal data;</li><li>request correction of your personal data;</li><li>request deletion of your personal data;</li><li>object to or restrict certain processing;</li><li>withdraw consent where processing is based on consent;</li><li>lodge a complaint with a data protection authority.</li>",
+    "privacy.s12.p2": "In Poland, the competent authority is the President of the Personal Data Protection Office (UODO). To exercise your rights, contact us at the address given in section 15 — we will respond within a reasonable time, not exceeding 30 days.",
+
+    "privacy.s13.title": "13. Security",
+    "privacy.s13.p1": "We rely on the security features provided by your device and operating system. Since image processing happens locally, your photos remain on your device unless you choose to share or export them. No method of electronic storage or transmission is completely secure, but we aim to limit data processing to what is necessary for the App to work.",
+
+    "privacy.s14.title": "14. Changes to This Privacy Policy",
+    "privacy.s14.p1": "We may update this Privacy Policy from time to time. We will announce changes by updating the \"Last updated\" date at the top of this document and, where possible, within the App itself.",
+
+    "privacy.s15.title": "15. Contact",
+    "privacy.s15.p1": "For any questions about this Privacy Policy or how the App handles data, please contact us:",
+
+    "terms.meta.title": "Terms of Use — RubiPic",
+    "terms.meta.description": "Terms of Use for the RubiPic app: license, in-app purchases, intellectual property, and Apple's minimum required license terms.",
+    "terms.back": "← Back to home",
+    "terms.pageTitle": "RubiPic Terms of Use",
+    "terms.updated": "Last updated: July 8, 2026",
+
+    "terms.s1.title": "1. General Provisions",
+    "terms.s1.p1": "These Terms of Use (\"Terms\") set out the rules for using the RubiPic mobile app (\"the App\"), made available by Hubert Przychodniak (\"the Developer\", \"we\") through the Apple App Store and Google Play. Downloading or using the App means you accept these Terms.",
+
+    "terms.s2.title": "2. Description of the Service",
+    "terms.s2.p1": "The App lets you turn your photos into graphic mosaic patterns that simulate an arrangement made of colored dice and 3×3 puzzle cubes (\"puzzle cube\"). The result is generated exclusively locally, on your device.",
+    "terms.s2.p2": "The App is not affiliated with, sponsored by, or authorized by any manufacturer of physical dice or 3×3 puzzle cubes, including Rubik's Brand Ltd. Any references to popular 3×3 puzzle cube types are purely descriptive and are meant to illustrate the visual effect you can achieve, not to suggest any partnership with the owners of the relevant trademarks.",
+
+    "terms.s3.title": "3. License",
+    "terms.s3.p1": "We grant you a non-exclusive, non-transferable license to use the App on iOS/Android devices that you own or control, for personal use only, in accordance with the terms of the store (Apple App Store / Google Play) from which the App was downloaded.",
+
+    "terms.s4.title": "4. In-App Purchases",
+    "terms.s4.p1": "The App offers a one-time, permanent purchase that unlocks full functionality (a \"lifetime unlock\"). The purchase is processed and billed exclusively by the Apple App Store or Google Play, in accordance with their own payment terms.",
+    "terms.s4.p2": "Refunds should be requested directly from Apple or Google, according to their own procedures — the Developer does not process payments directly.",
+    "terms.s4.p3": "The purchase can be restored on another device linked to the same Apple/Google account using the \"Restore purchases\" feature.",
+
+    "terms.s5.title": "5. Intellectual Property",
+    "terms.s5.p1": "Photos you upload remain your exclusive property — the Developer claims no rights to them and has no access to them.",
+    "terms.s5.p2": "The App's code, design, logo, and name are the property of the Developer and are protected by copyright. Copying, decompiling, or reverse-engineering the App's source code is prohibited, except to the extent permitted by mandatory applicable law.",
+
+    "terms.s6.title": "6. User Obligations",
+    "terms.s6.p1": "You agree to use the App in accordance with the law and these Terms, and in particular not to use it to process content that is unlawful, offensive, or that infringes the rights of third parties.",
+
+    "terms.s7.title": "7. No Warranty and Limitation of Liability",
+    "terms.s7.p1": "The App is provided \"AS IS\", without any warranties, express or implied. To the maximum extent permitted by law, the Developer shall not be liable for any indirect, incidental, or consequential damages arising from the use of the App.",
+    "terms.s7.p2": "The above does not exclude any consumer rights you are entitled to under the mandatory laws of your country of residence.",
+
+    "terms.s8.title": "8. Apple's Minimum Terms (Applies to iOS Users)",
+    "terms.s8.p1": "This section sets out the minimum license terms required by Apple Inc. for apps distributed through the App Store:",
+    "terms.s8.list": "<li>This license agreement is entered into solely between you and the Developer, not with Apple — Apple is not responsible for the App or its content.</li><li>The license is limited to use on Apple-branded devices that you own or control, in accordance with the App Store's Usage Rules.</li><li>The Developer, not Apple, is solely responsible for providing any maintenance and support for the App.</li><li>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price of the App to you, if any — this is the sole warranty Apple will be responsible for, to the maximum extent permitted by law.</li><li>The Developer, not Apple, is solely responsible for addressing any claims by you or any third party relating to the App, including but not limited to product liability claims, claims that the App fails to conform to applicable legal or regulatory requirements, and claims arising under consumer protection law.</li><li>In the event of any third-party claim that the App infringes their intellectual property rights, the Developer, not Apple, is solely responsible for the investigation, defense, settlement, and discharge of any such claim.</li><li>You represent and warrant that you are not located in a country subject to a U.S. Government embargo, or listed on any U.S. Government list of prohibited or restricted parties.</li><li>Any questions, complaints, or claims relating to the App should be directed to the Developer at the address given in section 11.</li><li>Apple and Apple's subsidiaries are third-party beneficiaries of this agreement and, upon your acceptance, will have the right to enforce it against you.</li>",
+
+    "terms.s9.title": "9. Complaints",
+    "terms.s9.p1": "Complaints about how the App works (not related to payments, which are handled by Apple/Google) can be sent to the address given in section 11. We will respond within 14 business days.",
+
+    "terms.s10.title": "10. Governing Law",
+    "terms.s10.p1": "These Terms are governed by the law of the Republic of Poland, without prejudice to any mandatory consumer-protection provisions of the law of your country of residence.",
+
+    "terms.s11.title": "11. Contact",
+    "terms.s11.p1": "For any questions, complaints, or claims regarding the App or these Terms, please contact us:",
+
+    "terms.s12.title": "12. Changes to These Terms",
+    "terms.s12.p1": "We reserve the right to change these Terms. The current version is always available at <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> and within the App, in the Settings section."
   }
 };

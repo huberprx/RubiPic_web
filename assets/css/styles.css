@@ -561,6 +561,34 @@ section { padding: 64px 0; }
 .legal-wrap p { color: var(--ink-soft); font-size: 1.05rem; }
 .back-link { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--accent-strong); margin-bottom: 20px; }
 
+/* legal document (privacy policy / terms) */
+.policy { padding: 50px 0 90px; }
+.policy-wrap { max-width: 760px; margin: 0 auto; }
+.policy-wrap > h1 {
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+.policy-wrap .updated { color: var(--ink-muted); font-size: .92rem; margin: 0 0 26px; }
+.policy-wrap > p.intro { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 22px; }
+.policy-provider {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow-sm);
+  font-size: .96rem;
+  line-height: 1.7;
+}
+.policy-provider a { color: var(--accent-strong); font-weight: 700; }
+.policy-body section { margin-bottom: 30px; }
+.policy-body h2 { font-size: 1.2rem; margin: 0 0 10px; letter-spacing: -0.01em; }
+.policy-body p { color: var(--ink-soft); font-size: 1rem; margin: 0 0 12px; }
+.policy-body ul { margin: 0 0 12px; padding-left: 22px; color: var(--ink-soft); }
+.policy-body li { margin-bottom: 6px; }
+.policy-body a { color: var(--accent-strong); font-weight: 600; }
+
 /* ---------- decorative background Rubik's cubes ---------- */
 /* Pure CSS isometric cubes (no images) scattered around section backgrounds
    so the "this is about Rubik's cube mosaics" idea reads instantly, even
