@@ -646,7 +646,8 @@ section { padding: 64px 0; }
 }
 
 @media (max-width: 640px) {
-  .deco-cube { display: none; }
+  .deco-cube { opacity: .85; }
+  .deco-cube__body { transform: rotateX(var(--rx, -28deg)) rotateY(var(--ry, 35deg)) scale(0.62); }
 }
 
 /* reveal animation */
