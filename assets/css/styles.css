@@ -570,6 +570,7 @@ section { padding: 64px 0; }
 .asc-card {
   container-type: inline-size;
   aspect-ratio: 1284 / 2778;
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 0.5cqw 3cqw 0;
@@ -580,6 +581,8 @@ section { padding: 64px 0; }
 }
 /* text block pinned at top, takes only as much height as it needs */
 .asc-card__copy {
+  position: relative;
+  z-index: 3;
   text-align: center;
   flex: 0 0 auto;
 }
