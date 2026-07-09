@@ -610,9 +610,31 @@ section { padding: 64px 0; }
   justify-content: center;
 }
 
+/* wrapper that sizes to the phone so cubes can anchor to its edges */
+.asc-phone-wrap {
+  position: relative;
+  max-height: 100%;
+  display: inline-flex;
+}
+
+/* 3D Rubik's cubes peeking out from behind the phone */
+.asc-cube {
+  position: absolute;
+  width: var(--cube-size, 20cqw);
+  height: var(--cube-size, 20cqw);
+  perspective: 60cqw;
+  z-index: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 2cqw 3cqw rgba(50, 28, 0, 0.4));
+}
+.asc-cube .deco-cube__face {
+  border-radius: calc(var(--cube-size, 20cqw) * 0.09);
+}
+
 /* CSS iPhone frame */
 .phone-frame {
   position: relative;
+  z-index: 1;
   max-height: 100%;
   display: inline-flex;
   background: #0b0b0d;
