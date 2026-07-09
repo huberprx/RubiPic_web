@@ -611,8 +611,9 @@ section { padding: 64px 0; }
 }
 .asc-card__shot img {
   width: auto;
-  height: 100%;
+  height: auto;
   max-width: 100%;
+  max-height: 100%;
   border-radius: 0;
   box-shadow: 0 3cqw 10cqw rgba(70, 44, 4, 0.35);
 }
