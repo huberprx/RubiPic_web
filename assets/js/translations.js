@@ -9,6 +9,7 @@ window.RUBIPIC_I18N = {
     "nav.methods": "Metody",
     "nav.features": "Funkcje",
     "nav.faq": "FAQ",
+    "nav.appstore": "App Store",
     "nav.cta": "Zobacz jak to działa",
     "hero.eyebrow": "Zdjęcie → mozaika z kostek Rubika",
     "hero.title": "Zamień swoje zdjęcia w prawdziwą <span class=\"accent\">mozaikę z kostek</span>",
@@ -231,7 +232,25 @@ window.RUBIPIC_I18N = {
     "terms.s11.p1": "W przypadku pytań, skarg lub roszczeń dotyczących Aplikacji lub niniejszego Regulaminu, skontaktuj się z nami:",
 
     "terms.s12.title": "12. Zmiany Regulaminu",
-    "terms.s12.p1": "Zastrzegamy sobie prawo do zmiany niniejszego Regulaminu. Aktualna wersja zawsze dostępna jest pod adresem <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> oraz w Aplikacji, w sekcji Ustawienia."
+    "terms.s12.p1": "Zastrzegamy sobie prawo do zmiany niniejszego Regulaminu. Aktualna wersja zawsze dostępna jest pod adresem <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> oraz w Aplikacji, w sekcji Ustawienia.",
+
+    "appstore.meta.title": "Grafiki App Store — RubiPic",
+    "appstore.meta.description": "Podgląd grafik marketingowych RubiPic przygotowywanych jako zrzuty ekranu do App Store Connect, w rozdzielczości 1284 × 2778 px.",
+    "appstore.kicker": "App Store",
+    "appstore.title": "Grafiki do App Store Connect",
+    "appstore.lead": "Podgląd 6 grafik marketingowych przygotowywanych jako zrzuty ekranu aplikacji. Docelowa rozdzielczość finalnych plików: <strong>1284 × 2778 px</strong> (iPhone, wyświetlacz 6.5″), bez ramki urządzenia — sam zrzut ekranu, pomniejszony proporcjonalnie, w dolnej części grafiki.",
+    "asc1.title": "Zacznij od zdjęcia",
+    "asc1.text": "Wybierz je z galerii, zrób nowe albo zaimportuj plik — przycinanie i obrót zajmują kilka sekund.",
+    "asc2.title": "Twoje kostki, Twoje kolory",
+    "asc2.text": "Ustaw rozmiar kostki i wybierz kolory — nawet w pełni własne, dopasowane do kostek, które już masz.",
+    "asc3.title": "Dopracuj każdy detal",
+    "asc3.text": "Jasność, kontrast i nasycenie jednym dotknięciem Auto albo w pełni ręcznie.",
+    "asc4.title": "Zbuduj to naprawdę",
+    "asc4.text": "Wygeneruj plan mozaiki w prawdziwej skali 1:1 i ułóż go z realnych kostek Rubika.",
+    "asc5.title": "Wydrukuj w pełnym kolorze",
+    "asc5.text": "Instrukcja w realnych barwach kostek, podzielona na strony A4, gotowa do druku.",
+    "asc6.title": "Albo oszczędź tusz",
+    "asc6.text": "Czarno-biały wydruk z opisanym kolorem w każdym polu — działa na każdej drukarce."
   },
   en: {
     "meta.title": "RubiPic — turn your photos into Rubik's Cube mosaics",
@@ -240,6 +259,7 @@ window.RUBIPIC_I18N = {
     "nav.methods": "Methods",
     "nav.features": "Features",
     "nav.faq": "FAQ",
+    "nav.appstore": "App Store",
     "nav.cta": "See how it works",
     "hero.eyebrow": "Photo → Rubik's Cube mosaic",
     "hero.title": "Turn your photos into a real <span class=\"accent\">cube mosaic</span>",
@@ -462,6 +482,24 @@ window.RUBIPIC_I18N = {
     "terms.s11.p1": "For any questions, complaints, or claims regarding the App or these Terms, please contact us:",
 
     "terms.s12.title": "12. Changes to These Terms",
-    "terms.s12.p1": "We reserve the right to change these Terms. The current version is always available at <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> and within the App, in the Settings section."
+    "terms.s12.p1": "We reserve the right to change these Terms. The current version is always available at <a href=\"https://rubipic.app/terms.html\">rubipic.app/terms.html</a> and within the App, in the Settings section.",
+
+    "appstore.meta.title": "App Store Graphics — RubiPic",
+    "appstore.meta.description": "Preview of RubiPic's marketing graphics prepared as App Store Connect screenshots, at 1284 × 2778 px resolution.",
+    "appstore.kicker": "App Store",
+    "appstore.title": "App Store Connect graphics",
+    "appstore.lead": "A preview of the 6 marketing graphics being prepared as app screenshots. Target resolution for the final files: <strong>1284 × 2778 px</strong> (iPhone, 6.5″ display), with no device frame — just the screenshot itself, scaled down proportionally, at the bottom of the graphic.",
+    "asc1.title": "Start with any photo",
+    "asc1.text": "Pick it from your gallery, snap a new one, or import a file — crop and rotate in seconds.",
+    "asc2.title": "Your cubes, your colors",
+    "asc2.text": "Set the cube size and pick colors — even fully custom ones, matched to the cubes you already own.",
+    "asc3.title": "Fine-tune every detail",
+    "asc3.text": "Brightness, contrast, and saturation — one-tap Auto or fully manual control.",
+    "asc4.title": "Build it for real",
+    "asc4.text": "Generate the mosaic plan at true 1:1 scale and assemble it with real Rubik's cubes.",
+    "asc5.title": "Print in full color",
+    "asc5.text": "Instructions in the real cube colors, split across A4 pages, ready to print.",
+    "asc6.title": "Or save on ink",
+    "asc6.text": "A black & white print with the color labeled in every cell — works on any printer."
   }
 };
