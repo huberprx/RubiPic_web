@@ -120,10 +120,10 @@ window.RUBIPIC_I18N = {
     "footer.by": "Autor: Hubert Przychodniak",
 
     "privacy.meta.title": "Polityka prywatności — RubiPic",
-    "privacy.meta.description": "Polityka prywatności aplikacji RubiPic: jakie dane przetwarza aplikacja, jakich uprawnień używa i jak działają zakupy w aplikacji.",
+    "privacy.meta.description": "Polityka prywatności aplikacji RubiPic: jakie dane przetwarza aplikacja, jakich uprawnień używa i jak działa zakup aplikacji.",
     "privacy.back": "← Wróć na stronę główną",
     "privacy.pageTitle": "Polityka prywatności RubiPic",
-    "privacy.updated": "Ostatnia aktualizacja: 8 lipca 2026",
+    "privacy.updated": "Ostatnia aktualizacja: 10 lipca 2026",
     "privacy.intro": "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób aplikacja RubiPic („Aplikacja”) postępuje z informacjami podczas korzystania z Aplikacji.",
     "privacy.provider": "<strong>Dostawcą Aplikacji jest:</strong><br>Hubert Przychodniak<br>Sarbka 48<br>64-705 Czarnków, Polska<br>E-mail: <a href=\"mailto:szaroczarnytrzmiel@gmail.com\">szaroczarnytrzmiel@gmail.com</a>",
 
@@ -133,7 +133,7 @@ window.RUBIPIC_I18N = {
 
     "privacy.s2.title": "2. Informacje przetwarzane przez Aplikację",
     "privacy.s2.p1": "Aplikacja może przetwarzać następujące informacje lokalnie na Twoim urządzeniu:",
-    "privacy.s2.list": "<li>obrazy wybrane przez Ciebie z biblioteki zdjęć, aparatu lub plików;</li><li>wygenerowane podglądy mozaiki oraz wygenerowane pliki PDF;</li><li>ustawienia aplikacji, takie jak język, jednostki, rozmiar i kolory kostek, rozmiar mozaiki oraz podobne preferencje;</li><li>informacje o statusie zakupu potrzebne do odblokowania funkcji „lifetime unlock” oraz do przywracania zakupów.</li>",
+    "privacy.s2.list": "<li>obrazy wybrane przez Ciebie z biblioteki zdjęć, aparatu lub plików;</li><li>wygenerowane podglądy mozaiki oraz wygenerowane pliki PDF;</li><li>ustawienia aplikacji, takie jak język, jednostki, rozmiar i kolory kostek, rozmiar mozaiki oraz podobne preferencje.</li>",
     "privacy.s2.p2": "Obrazy i wygenerowane pliki są przetwarzane lokalnie na Twoim urządzeniu. Nie są przesyłane na nasze serwery ani do jakiejkolwiek strony trzeciej.",
 
     "privacy.s3.title": "3. Uprawnienia dotyczące aparatu, zdjęć i plików",
@@ -141,10 +141,10 @@ window.RUBIPIC_I18N = {
     "privacy.s3.list": "<li><strong>Aparatu (kamery)</strong> — aby umożliwić zrobienie zdjęcia i użycie go do stworzenia mozaiki;</li><li><strong>Galerii zdjęć (odczyt)</strong> — aby umożliwić wybranie istniejącego zdjęcia do przetworzenia;</li><li><strong>Galerii zdjęć (zapis)</strong> — aby umożliwić zapisanie wygenerowanej mozaiki na Twoim urządzeniu, na Twoje wyraźne życzenie;</li><li><strong>Plików</strong> — aby umożliwić zaimportowanie pliku z obrazem.</li>",
     "privacy.s3.p2": "Uprawnienia te służą wyłącznie zapewnieniu podstawowych funkcji Aplikacji. Możesz nimi zarządzać w ustawieniach swojego urządzenia w każdej chwili.",
 
-    "privacy.s4.title": "4. Zakupy w aplikacji",
-    "privacy.s4.p1": "Aplikacja oferuje jednorazowy zakup w aplikacji (tzw. „lifetime unlock”), obsługiwany w całości przez system płatności Apple App Store i/lub Google Play, w zależności od platformy, z której korzystasz.",
+    "privacy.s4.title": "4. Zakup Aplikacji",
+    "privacy.s4.p1": "Aplikacja jest płatna z góry — kupujesz ją jednorazowo w App Store i/lub Google Play, w zależności od platformy, z której korzystasz. Pełna funkcjonalność jest dostępna od razu po zakupie — Aplikacja nie zawiera żadnych zakupów w aplikacji, subskrypcji ani odblokowywanych funkcji.",
     "privacy.s4.p2": "Nie mamy dostępu do danych Twojej karty płatniczej ani pełnych danych rozliczeniowych — są one przetwarzane wyłącznie przez Apple Inc. i/lub Google LLC, zgodnie z ich własnymi politykami prywatności: <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple</a>, <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google</a>.",
-    "privacy.s4.p3": "Aplikacja komunikuje się z App Store / Google Play wyłącznie w celu zweryfikowania statusu zakupu i umożliwienia jego przywrócenia (funkcja „Przywróć zakupy”).",
+    "privacy.s4.p3": "Ponieważ Aplikacja nie zawiera zakupów w aplikacji, nie komunikuje się z App Store / Google Play w celu weryfikowania statusu zakupu ani przywracania zakupów — dostęp do Aplikacji zależy wyłącznie od konta Apple / Google, na które została kupiona, i jest obsługiwany automatycznie przez sklep.",
 
     "privacy.s5.title": "5. Udostępnianie i drukowanie",
     "privacy.s5.p1": "Aplikacja może umożliwić wydrukowanie lub udostępnienie wygenerowanego pliku PDF za pomocą funkcji systemowych dostępnych na Twoim urządzeniu. Udostępnianie następuje tylko wtedy, gdy sam zdecydujesz się skorzystać z opcji udostępniania lub drukowania.",
@@ -167,7 +167,7 @@ window.RUBIPIC_I18N = {
 
     "privacy.s10.title": "10. Udostępnianie danych",
     "privacy.s10.p1": "Nie sprzedajemy Twoich danych osobowych. Nie udostępniamy Twoich obrazów osobom trzecim z naszych serwerów, ponieważ nie przesyłamy ich na żadne serwery.",
-    "privacy.s10.p2": "Informacje mogą być przetwarzane przez Apple i/lub Google, gdy pobierasz Aplikację, dokonujesz zakupu w aplikacji, przywracasz zakupy lub korzystasz z usług App Store / Google Play. Apple i Google przetwarzają takie informacje zgodnie z własnymi politykami prywatności.",
+    "privacy.s10.p2": "Informacje mogą być przetwarzane przez Apple i/lub Google, gdy pobierasz i kupujesz Aplikację lub korzystasz z usług App Store / Google Play. Apple i Google przetwarzają takie informacje zgodnie z własnymi politykami prywatności.",
 
     "privacy.s11.title": "11. Przekazywanie danych za granicę",
     "privacy.s11.p1": "Nie przekazujemy Twoich obrazów ani wygenerowanych mozaik na nasze serwery. Apple i/lub Google mogą przetwarzać informacje związane z App Store / Google Play i zakupami w krajach poza krajem Twojego zamieszkania, zgodnie z własnymi warunkami prywatności i prawnymi.",
@@ -187,10 +187,10 @@ window.RUBIPIC_I18N = {
     "privacy.s15.p1": "W sprawach dotyczących niniejszej Polityki prywatności lub sposobu przetwarzania danych przez Aplikację, skontaktuj się z nami:",
 
     "terms.meta.title": "Regulamin — RubiPic",
-    "terms.meta.description": "Regulamin korzystania z aplikacji RubiPic: licencja, zakupy w aplikacji, własność intelektualna oraz minimalne warunki wymagane przez Apple.",
+    "terms.meta.description": "Regulamin korzystania z aplikacji RubiPic: licencja, zakup aplikacji, własność intelektualna oraz minimalne warunki wymagane przez Apple.",
     "terms.back": "← Wróć na stronę główną",
     "terms.pageTitle": "Regulamin korzystania z aplikacji RubiPic",
-    "terms.updated": "Ostatnia aktualizacja: 8 lipca 2026",
+    "terms.updated": "Ostatnia aktualizacja: 10 lipca 2026",
 
     "terms.s1.title": "1. Postanowienia ogólne",
     "terms.s1.p1": "Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej RubiPic („Aplikacja”), udostępnianej przez Huberta Przychodniaka („Deweloper”, „my”), za pośrednictwem Apple App Store oraz Google Play. Pobranie lub korzystanie z Aplikacji oznacza akceptację niniejszego Regulaminu.",
@@ -202,10 +202,10 @@ window.RUBIPIC_I18N = {
     "terms.s3.title": "3. Licencja",
     "terms.s3.p1": "Udzielamy Ci niewyłącznej, nieprzenoszalnej licencji na korzystanie z Aplikacji na urządzeniach z systemem iOS/Android, które posiadasz lub kontrolujesz, wyłącznie do użytku osobistego, zgodnie z regulaminami sklepu (Apple App Store / Google Play), z którego Aplikacja została pobrana.",
 
-    "terms.s4.title": "4. Zakupy w aplikacji",
-    "terms.s4.p1": "Aplikacja oferuje jednorazowy, bezterminowy zakup odblokowujący pełną funkcjonalność („lifetime unlock”). Zakup jest realizowany i rozliczany wyłącznie przez Apple App Store lub Google Play, zgodnie z ich regulaminami płatności.",
+    "terms.s4.title": "4. Zakup Aplikacji",
+    "terms.s4.p1": "Aplikacja jest płatna z góry: płacisz raz, w momencie pobrania, przez Apple App Store lub Google Play, zgodnie z ich regulaminami płatności. Nie ma żadnych dodatkowych zakupów w aplikacji, subskrypcji ani odblokowywanych funkcji — cała funkcjonalność jest dostępna od razu po instalacji.",
     "terms.s4.p2": "Zwroty należy zgłaszać bezpośrednio do Apple lub Google, zgodnie z ich procedurami — Deweloper nie przetwarza płatności samodzielnie.",
-    "terms.s4.p3": "Zakup można przywrócić na innym urządzeniu powiązanym z tym samym kontem Apple/Google poprzez funkcję „Przywróć zakupy”.",
+    "terms.s4.p3": "Ponieważ to sama Aplikacja jest produktem płatnym (a nie zakupem wewnątrz aplikacji), możesz ją ponownie zainstalować na innym urządzeniu powiązanym z tym samym kontem Apple/Google bez dodatkowych kosztów, bez potrzeby korzystania z funkcji przywracania zakupów.",
 
     "terms.s5.title": "5. Własność intelektualna",
     "terms.s5.p1": "Zdjęcia wgrywane przez Ciebie pozostają Twoją wyłączną własnością — Deweloper nie rości sobie do nich żadnych praw i nie ma do nich dostępu.",
@@ -379,10 +379,10 @@ window.RUBIPIC_I18N = {
     "footer.by": "By Hubert Przychodniak",
 
     "privacy.meta.title": "Privacy Policy — RubiPic",
-    "privacy.meta.description": "RubiPic's Privacy Policy: what data the app processes, which permissions it uses, and how in-app purchases work.",
+    "privacy.meta.description": "RubiPic's Privacy Policy: what data the app processes, which permissions it uses, and how the app purchase works.",
     "privacy.back": "← Back to home",
     "privacy.pageTitle": "RubiPic Privacy Policy",
-    "privacy.updated": "Last updated: July 8, 2026",
+    "privacy.updated": "Last updated: July 10, 2026",
     "privacy.intro": "This Privacy Policy explains how RubiPic (\"the App\") handles information when you use the App.",
     "privacy.provider": "<strong>The App is provided by:</strong><br>Hubert Przychodniak<br>Sarbka 48<br>64-705 Czarnków, Poland<br>Email: <a href=\"mailto:szaroczarnytrzmiel@gmail.com\">szaroczarnytrzmiel@gmail.com</a>",
 
@@ -392,7 +392,7 @@ window.RUBIPIC_I18N = {
 
     "privacy.s2.title": "2. Information Processed by the App",
     "privacy.s2.p1": "The App may process the following information locally on your device:",
-    "privacy.s2.list": "<li>images selected by you from your photo library, camera, or files;</li><li>generated mosaic previews and generated PDF files;</li><li>app settings such as language, units, cube size and colors, mosaic size, and similar preferences;</li><li>information about in-app purchase status needed to unlock the \"lifetime unlock\" feature and to restore purchases.</li>",
+    "privacy.s2.list": "<li>images selected by you from your photo library, camera, or files;</li><li>generated mosaic previews and generated PDF files;</li><li>app settings such as language, units, cube size and colors, mosaic size, and similar preferences.</li>",
     "privacy.s2.p2": "Images and generated files are processed locally on your device. They are not uploaded to our servers or to any third party.",
 
     "privacy.s3.title": "3. Camera, Photos and Files Permissions",
@@ -400,10 +400,10 @@ window.RUBIPIC_I18N = {
     "privacy.s3.list": "<li><strong>Camera</strong> — to let you take a photo and use it to create a mosaic;</li><li><strong>Photo library (read)</strong> — to let you select an existing photo to process;</li><li><strong>Photo library (write)</strong> — to let you save the generated mosaic to your device, at your explicit request;</li><li><strong>Files</strong> — to let you import an image file.</li>",
     "privacy.s3.p2": "These permissions are used only to provide the App's core functionality. You can manage them in your device settings at any time.",
 
-    "privacy.s4.title": "4. In-App Purchases",
-    "privacy.s4.p1": "The App offers a one-time in-app purchase (a \"lifetime unlock\"), handled entirely by the Apple App Store and/or Google Play payment system, depending on the platform you use.",
+    "privacy.s4.title": "4. App Purchase",
+    "privacy.s4.p1": "The App is paid upfront — you buy it once through the App Store and/or Google Play, depending on the platform you use. Full functionality is available immediately after purchase — the App does not contain any in-app purchases, subscriptions, or unlockable features.",
     "privacy.s4.p2": "We do not have access to your payment card details or full billing information — these are processed solely by Apple Inc. and/or Google LLC, according to their own privacy policies: <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple</a>, <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google</a>.",
-    "privacy.s4.p3": "The App communicates with the App Store / Google Play only to verify purchase status and to allow it to be restored (the \"Restore purchases\" feature).",
+    "privacy.s4.p3": "Because the App does not contain any in-app purchases, it does not need to communicate with the App Store / Google Play to verify purchase status or restore purchases — access to the App depends solely on the Apple / Google account it was purchased with, and is handled automatically by the store.",
 
     "privacy.s5.title": "5. Sharing and Printing",
     "privacy.s5.p1": "The App may let you print or share a generated PDF using system features available on your device. Sharing only happens when you choose to use the share or print option.",
@@ -426,7 +426,7 @@ window.RUBIPIC_I18N = {
 
     "privacy.s10.title": "10. Data Sharing",
     "privacy.s10.p1": "We do not sell your personal data. We do not share your images with third parties from our own servers, because we do not upload them to any servers.",
-    "privacy.s10.p2": "Information may be processed by Apple and/or Google when you download the App, make an in-app purchase, restore purchases, or use App Store / Google Play services. Apple and Google process such information according to their own privacy policies.",
+    "privacy.s10.p2": "Information may be processed by Apple and/or Google when you download and purchase the App, or use App Store / Google Play services. Apple and Google process such information according to their own privacy policies.",
 
     "privacy.s11.title": "11. International Transfers",
     "privacy.s11.p1": "We do not transfer your images or generated mosaics to our own servers. Apple and/or Google may process App Store / Google Play and purchase-related information in countries outside your country of residence, according to their own privacy and legal terms.",
@@ -446,10 +446,10 @@ window.RUBIPIC_I18N = {
     "privacy.s15.p1": "For any questions about this Privacy Policy or how the App handles data, please contact us:",
 
     "terms.meta.title": "Terms of Use — RubiPic",
-    "terms.meta.description": "Terms of Use for the RubiPic app: license, in-app purchases, intellectual property, and Apple's minimum required license terms.",
+    "terms.meta.description": "Terms of Use for the RubiPic app: license, the app purchase, intellectual property, and Apple's minimum required license terms.",
     "terms.back": "← Back to home",
     "terms.pageTitle": "RubiPic Terms of Use",
-    "terms.updated": "Last updated: July 8, 2026",
+    "terms.updated": "Last updated: July 10, 2026",
 
     "terms.s1.title": "1. General Provisions",
     "terms.s1.p1": "These Terms of Use (\"Terms\") set out the rules for using the RubiPic mobile app (\"the App\"), made available by Hubert Przychodniak (\"the Developer\", \"we\") through the Apple App Store and Google Play. Downloading or using the App means you accept these Terms.",
@@ -461,10 +461,10 @@ window.RUBIPIC_I18N = {
     "terms.s3.title": "3. License",
     "terms.s3.p1": "We grant you a non-exclusive, non-transferable license to use the App on iOS/Android devices that you own or control, for personal use only, in accordance with the terms of the store (Apple App Store / Google Play) from which the App was downloaded.",
 
-    "terms.s4.title": "4. In-App Purchases",
-    "terms.s4.p1": "The App offers a one-time, permanent purchase that unlocks full functionality (a \"lifetime unlock\"). The purchase is processed and billed exclusively by the Apple App Store or Google Play, in accordance with their own payment terms.",
+    "terms.s4.title": "4. App Purchase",
+    "terms.s4.p1": "The App is paid upfront: you pay once, at the time of download, through the Apple App Store or Google Play, in accordance with their own payment terms. There are no additional in-app purchases, subscriptions, or unlockable features — full functionality is available immediately after installing the App.",
     "terms.s4.p2": "Refunds should be requested directly from Apple or Google, according to their own procedures — the Developer does not process payments directly.",
-    "terms.s4.p3": "The purchase can be restored on another device linked to the same Apple/Google account using the \"Restore purchases\" feature.",
+    "terms.s4.p3": "Because the App itself is the paid product (not an in-app purchase), you can reinstall it on another device linked to the same Apple/Google account at no extra cost, without needing an in-app restore-purchases feature.",
 
     "terms.s5.title": "5. Intellectual Property",
     "terms.s5.p1": "Photos you upload remain your exclusive property — the Developer claims no rights to them and has no access to them.",
