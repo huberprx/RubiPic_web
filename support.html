@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — RubiPic</title>
+<meta name="description" content="Got a bug, an idea, or just a question? Fill out the form and we'll get back to you as soon as possible.">
+<meta name="theme-color" content="#fbf0dc">
+<link rel="canonical" href="https://rubipic.app/support.html">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Support — RubiPic">
+<meta property="og:description" content="Got a bug, an idea, or just a question? Fill out the form and we'll get back to you.">
+<meta property="og:image" content="assets/icons/logo-512.jpg">
+<meta property="og:url" content="https://rubipic.app/support.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-title-key="support.meta.title" data-desc-key="support.meta.description">
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="index.html" class="brand">
+      <img src="assets/icons/logo.webp" width="40" height="40" alt="RubiPic logo">
+      <span>RubiPic</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html#how" data-i18n="nav.how">How it works</a>
+      <a href="index.html#methods" data-i18n="nav.methods">Methods</a>
+      <a href="index.html#features" data-i18n="nav.features">Features</a>
+      <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="appstore.html" data-i18n="nav.appstore">App Store</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-toggle">
+        <button type="button" data-lang="pl">PL</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="policy">
+    <div class="wrap policy-wrap">
+      <a href="index.html" class="back-link" data-i18n="support.back">← Back to home</a>
+
+      <h1 data-i18n="support.title">Support</h1>
+      <p class="support-intro" data-i18n="support.lead">Got a bug, an idea, or just a question? Fill out the form and we'll get back to you.</p>
+
+      <form id="support-form" class="support-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <!-- TODO: Wejdź na https://web3forms.com, podaj swój e-mail i wklej tu otrzymany Access Key -->
+        <input type="hidden" name="access_key" value="TWOJ-WEB3FORMS-ACCESS-KEY">
+        <input type="hidden" name="subject" id="form-subject" value="New message from rubipic.app">
+        <input type="hidden" name="from_name" value="RubiPic Support">
+        <input type="hidden" name="redirect" value="false">
+        <!-- honeypot spam protection -->
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-group">
+          <label for="form-type" data-i18n="support.field.type">Type of request</label>
+          <select id="form-type" name="type" class="form-select" required>
+            <option value="" data-i18n="support.type.placeholder">Choose...</option>
+            <option value="bug" data-i18n="support.type.bug">🐛 Bug report</option>
+            <option value="feature" data-i18n="support.type.feature">💡 Feature request / Idea</option>
+            <option value="question" data-i18n="support.type.question">❓ Question</option>
+            <option value="other" data-i18n="support.type.other">✉️ Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="form-name" data-i18n="support.field.name">Your name <span class="form-optional">(optional)</span></label>
+          <input type="text" id="form-name" name="name" class="form-input" data-i18n-attr='{"placeholder":"support.field.name.placeholder"}' placeholder="Your name" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="form-email" data-i18n="support.field.email">Your e-mail <span class="form-required">*</span></label>
+          <input type="email" id="form-email" name="email" class="form-input" required data-i18n-attr='{"placeholder":"support.field.email.placeholder"}' placeholder="your@email.com" autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="form-message" data-i18n="support.field.message">Message <span class="form-required">*</span></label>
+          <textarea id="form-message" name="message" class="form-textarea" required rows="6" data-i18n-attr='{"placeholder":"support.field.message.placeholder"}' placeholder="Your message..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit" data-i18n="support.submit">Send message</button>
+      </form>
+
+      <div id="support-success" class="support-success" hidden>
+        <div class="success-icon">✅</div>
+        <h2 data-i18n="support.success.title">Message sent!</h2>
+        <p data-i18n="support.success.text">Thank you for getting in touch. We'll get back to you as soon as possible.</p>
+        <a href="index.html" class="btn btn-ghost" style="margin-top:8px" data-i18n="support.success.back">Back to home</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/icons/logo.webp" width="44" height="44" alt="RubiPic logo">
+          <strong>RubiPic</strong>
+        </div>
+        <p class="muted" data-i18n="footer.tagline">Turn your photos into print-ready Rubik's Cube mosaics.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.product">Product</h4>
+        <a href="index.html#how" data-i18n="nav.how">How it works</a>
+        <a href="index.html#methods" data-i18n="nav.methods">Methods</a>
+        <a href="index.html#features" data-i18n="nav.features">Features</a>
+        <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="appstore.html" data-i18n="nav.appstore">App Store</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legal">Legal</h4>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a><br>
+        <a href="terms.html" data-i18n="footer.terms">Terms of Use</a><br>
+        <a href="support.html" data-i18n="footer.support">Support</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> <span data-i18n="footer.rights">RubiPic · All rights reserved.</span></span>
+      <span data-i18n="footer.by">By Hubert Przychodniak</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+(function () {
+  var form = document.getElementById('support-form');
+  var success = document.getElementById('support-success');
+  var subjectEl = document.getElementById('form-subject');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    var lang = document.documentElement.getAttribute('lang') || 'en';
+    var dict = window.RUBIPIC_I18N && window.RUBIPIC_I18N[lang];
+    if (dict && dict['support.email.subject']) {
+      subjectEl.value = dict['support.email.subject'];
+    }
+
+    var btn = form.querySelector('[type="submit"]');
+    btn.disabled = true;
+
+    try {
+      var res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      var data = await res.json();
+      if (data.success) {
+        form.hidden = true;
+        success.hidden = false;
+        success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        btn.disabled = false;
+        var msg = (dict && dict['support.error']) || 'Something went wrong. Please try again.';
+        alert(msg);
+      }
+    } catch (_) {
+      btn.disabled = false;
+      var netMsg = (dict && dict['support.error.network']) || 'Network error. Please try again.';
+      alert(netMsg);
+    }
+  });
+})();
+</script>
+</body>
+</html>
