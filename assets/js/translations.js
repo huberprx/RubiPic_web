@@ -287,7 +287,17 @@ window.RUBIPIC_I18N = {
     "googleplay.kicker": "Google Play",
     "googleplay.title": "Grafiki do Google Play",
     "googleplay.lead": "Podgląd 7 grafik marketingowych przygotowywanych jako zrzuty ekranu do wizytówki w Google Play. Docelowa rozdzielczość finalnych plików: <strong>1080 × 1920 px</strong> (telefon, 9:16), bez ramki urządzenia — tylko nagłówek i sam zrzut ekranu.",
-    "googleplay.dims": "1080 × 1920 px · PNG · sRGB"
+    "googleplay.dims": "1080 × 1920 px · PNG · sRGB",
+    "googleplay.feature.kicker": "Grafika funkcji",
+    "googleplay.feature.title": "Grafika funkcji Google Play",
+    "googleplay.feature.lead": "Wzorzec Kostka Pixel 1024 × 500 px, rozłożony na elementy składowe. Poniżej pusta ramka w tej samej rozdzielczości — uzupełnimy ją ręcznie pod RubiPic.",
+    "googleplay.feature.ref": "Wzorzec",
+    "googleplay.feature.parts": "Elementy składowe",
+    "googleplay.feature.empty": "Pusta ramka",
+    "googleplay.feature.emptyLead": "Ta sama rozdzielczość co wzorzec. Uzupełnimy ręcznie.",
+    "googleplay.feature.name": "RubiPic",
+    "googleplay.feature.tagline": "Zdjęcie → mozaika z kostek",
+    "googleplay.feature.dims": "1024 × 500 px · PNG · sRGB"
   },
   en: {
     "meta.title": "RubiPic — turn your photos into Rubik's Cube mosaics",
@@ -574,6 +584,16 @@ window.RUBIPIC_I18N = {
     "googleplay.kicker": "Google Play",
     "googleplay.title": "Google Play graphics",
     "googleplay.lead": "A preview of the 7 marketing graphics being prepared as Play Store listing screenshots. Target resolution for the final files: <strong>1080 × 1920 px</strong> (phone, 9:16), with no device frame — just the headline and the screenshot itself.",
-    "googleplay.dims": "1080 × 1920 px · PNG · sRGB"
+    "googleplay.dims": "1080 × 1920 px · PNG · sRGB",
+    "googleplay.feature.kicker": "Feature graphic",
+    "googleplay.feature.title": "Google Play feature graphic",
+    "googleplay.feature.lead": "Kostka Pixel 1024 × 500 px template, split into its parts. Empty frame below at the same size — we will fill it by hand for RubiPic.",
+    "googleplay.feature.ref": "Reference",
+    "googleplay.feature.parts": "Parts",
+    "googleplay.feature.empty": "Empty frame",
+    "googleplay.feature.emptyLead": "Same size as the template. We will fill it by hand.",
+    "googleplay.feature.name": "RubiPic",
+    "googleplay.feature.tagline": "Photo → cube mosaic",
+    "googleplay.feature.dims": "1024 × 500 px · PNG · sRGB"
   }
 };
