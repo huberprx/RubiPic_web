@@ -295,8 +295,6 @@ window.RUBIPIC_I18N = {
     "googleplay.feature.parts": "Elementy składowe",
     "googleplay.feature.empty": "Pusta ramka",
     "googleplay.feature.emptyLead": "Ta sama rozdzielczość co wzorzec. Uzupełnimy ręcznie.",
-    "googleplay.feature.name": "RubiPic",
-    "googleplay.feature.tagline": "Zdjęcie → mozaika z kostek",
     "googleplay.feature.dims": "1024 × 500 px · PNG · sRGB"
   },
   en: {
@@ -592,8 +590,6 @@ window.RUBIPIC_I18N = {
     "googleplay.feature.parts": "Parts",
     "googleplay.feature.empty": "Empty frame",
     "googleplay.feature.emptyLead": "Same size as the template. We will fill it by hand.",
-    "googleplay.feature.name": "RubiPic",
-    "googleplay.feature.tagline": "Photo → cube mosaic",
     "googleplay.feature.dims": "1024 × 500 px · PNG · sRGB"
   }
 };

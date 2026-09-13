@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800;1,900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/styles.css?v=gp15">
+<link rel="stylesheet" href="assets/css/styles.css?v=gp38">
 </head>
 <body data-title-key="googleplay.meta.title" data-desc-key="googleplay.meta.description">
 
@@ -207,57 +207,79 @@
             </div>
             <figcaption><b>2</b> Zdjęcie</figcaption>
           </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage">
-              <div class="gp-part__wood">
-                <img src="assets/googleplay/layers/mosaic.jpg" alt="Mozaika z kostek">
-              </div>
-            </div>
-            <figcaption><b>3</b> Rama + mozaika</figcaption>
-          </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage gp-part__stage--amber">
-              <img src="assets/googleplay/layers/dice-arrow.png?v=gp12" alt="Strzałka z kostek">
-            </div>
-            <figcaption><b>4</b> Strzałka z kostek</figcaption>
-          </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage gp-part__stage--amber">
-              <img src="assets/googleplay/layers/hand.png?v=gp12" alt="Ręka z kostką">
-            </div>
-            <figcaption><b>5</b> Ręka</figcaption>
-          </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage gp-part__stage--amber">
-              <img src="assets/googleplay/layers/dice-pile.png?v=gp12" alt="Stos kostek">
-            </div>
-            <figcaption><b>6</b> Stos kostek</figcaption>
-          </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage gp-part__stage--type">
-              <p class="gp-fg-title">Kostka Pixel</p>
-            </div>
-            <figcaption><b>7</b> Tytuł (HTML)</figcaption>
-          </figure>
-          <figure class="gp-part">
-            <div class="gp-part__stage gp-part__stage--type">
-              <p class="gp-fg-tagline">Generator instrukcji<br>układania mozaiki z kostek</p>
-            </div>
-            <figcaption><b>8</b> Podtytuł (HTML)</figcaption>
-          </figure>
         </div>
 
         <h3 class="gp-subhead" data-i18n="googleplay.feature.empty">Pusta ramka</h3>
         <p class="gp-empty-lead" data-i18n="googleplay.feature.emptyLead">Ta sama rozdzielczość co wzorzec. Uzupełnimy ręcznie.</p>
         <div class="gp-feature gp-feature--empty" aria-label="Grafika funkcji RubiPic 1024 na 500 pikseli">
-          <img class="gp-empty-wood" src="assets/googleplay/layers/wood-frame.png?v=gp15" alt="Pusta drewniana rama 1:1">
-          <img class="gp-empty-cube gp-empty-cube--a" src="assets/googleplay/layers/cube-a.png?v=gp15" alt="">
-          <img class="gp-empty-cube gp-empty-cube--b" src="assets/googleplay/layers/cube-b.png?v=gp15" alt="">
-          <img class="gp-empty-cube gp-empty-cube--c" src="assets/googleplay/layers/cube-c.png?v=gp15" alt="">
-          <img class="gp-empty-cube gp-empty-cube--d" src="assets/googleplay/layers/cube-d.png?v=gp15" alt="">
-          <img class="gp-empty-cube gp-empty-cube--e" src="assets/googleplay/layers/cube-e.png?v=gp15" alt="">
-          <p class="gp-empty-name" data-i18n="googleplay.feature.name">RubiPic</p>
+          <button type="button" id="gp-layer-photo" class="gp-empty-layer gp-empty-photo" aria-label="Zdjęcie źródłowe">
+            <img src="assets/googleplay/layers/photo-mona.jpg?v=gp30" alt="">
+          </button>
+          <div class="gp-empty-artwork">
+            <button type="button" id="gp-layer-mosaic" class="gp-empty-layer gp-empty-mosaic" aria-label="Mozaika w ramie">
+              <img src="assets/googleplay/layers/mosaic-mona.png?v=gp25" alt="">
+            </button>
+            <button type="button" id="gp-layer-wood" class="gp-empty-layer gp-empty-wood" aria-label="Drewniana rama">
+              <img src="assets/googleplay/layers/wood-frame.png?v=gp22" alt="">
+            </button>
+          </div>
+          <button type="button" id="gp-layer-cube-a" class="gp-empty-layer gp-empty-cube gp-empty-cube--a" aria-label="Kostka Rubika A">
+            <img src="assets/googleplay/layers/cube-a.png?v=gp17" alt="">
+          </button>
+          <button type="button" id="gp-layer-cube-b" class="gp-empty-layer gp-empty-cube gp-empty-cube--b" aria-label="Kostka Rubika B">
+            <img src="assets/googleplay/layers/cube-b.png?v=gp17" alt="">
+          </button>
+          <button type="button" id="gp-layer-cube-c" class="gp-empty-layer gp-empty-cube gp-empty-cube--c" aria-label="Kostka Rubika C">
+            <img src="assets/googleplay/layers/cube-c.png?v=gp17" alt="">
+          </button>
+          <button type="button" id="gp-layer-cube-d" class="gp-empty-layer gp-empty-cube gp-empty-cube--d" aria-label="Kostka Rubika D">
+            <img src="assets/googleplay/layers/cube-d.png?v=gp17" alt="">
+          </button>
+          <button type="button" id="gp-layer-cube-e" class="gp-empty-layer gp-empty-cube gp-empty-cube--e" aria-label="Kostka Rubika E">
+            <img src="assets/googleplay/layers/cube-e.png?v=gp17" alt="">
+          </button>
+          <button type="button" id="gp-layer-hand" class="gp-empty-layer gp-empty-hand" aria-label="Dłoń z kostką Rubika">
+            <img src="assets/googleplay/layers/hand-cube.png?v=gp17" alt="">
+          </button>
         </div>
+        <nav class="gp-layer-picker" aria-label="Osobne warstwy grafiki">
+          <button type="button" data-gp-layer="gp-layer-photo">
+            <img src="assets/googleplay/layers/photo-mona.jpg?v=gp30" alt="">
+            <span>Zdjęcie</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-mosaic">
+            <img src="assets/googleplay/layers/mosaic-mona.png?v=gp25" alt="">
+            <span>Mozaika</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-wood">
+            <img src="assets/googleplay/layers/wood-frame.png?v=gp22" alt="">
+            <span>Rama</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-cube-a">
+            <img src="assets/googleplay/layers/cube-a.png?v=gp17" alt="">
+            <span>Kostka A</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-cube-b">
+            <img src="assets/googleplay/layers/cube-b.png?v=gp17" alt="">
+            <span>Kostka B</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-cube-c">
+            <img src="assets/googleplay/layers/cube-c.png?v=gp17" alt="">
+            <span>Kostka C</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-cube-d">
+            <img src="assets/googleplay/layers/cube-d.png?v=gp17" alt="">
+            <span>Kostka D</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-cube-e">
+            <img src="assets/googleplay/layers/cube-e.png?v=gp17" alt="">
+            <span>Kostka E</span>
+          </button>
+          <button type="button" data-gp-layer="gp-layer-hand">
+            <img src="assets/googleplay/layers/hand-cube.png?v=gp17" alt="">
+            <span>Dłoń</span>
+          </button>
+        </nav>
         <p class="asc-dims" data-i18n="googleplay.feature.dims">1024 × 500 px · PNG · sRGB</p>
       </div>
     </div>
@@ -297,7 +319,8 @@
   </div>
 </footer>
 
-<script src="assets/js/translations.js?v=gp11"></script>
+<script src="assets/js/translations.js?v=gp21"></script>
 <script src="assets/js/main.js?v=gp1"></script>
+<script src="assets/js/googleplay-layers.js?v=gp17"></script>
 </body>
 </html>
