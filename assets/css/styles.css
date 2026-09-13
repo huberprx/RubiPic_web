@@ -844,14 +844,78 @@ section { padding: 64px 0; }
   margin: 0 0 16px;
 }
 .gp-feature--empty {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fffdf8;
-  border: 2px dashed #c4ae7a;
-  color: var(--ink-muted);
-  font-weight: 700;
-  letter-spacing: .08em;
+  position: relative;
+  container-type: inline-size;
+  background: #f6a724;
+  border: none;
+}
+.gp-empty-wood {
+  position: absolute;
+  top: 6%;
+  right: 3.6%;
+  height: 72%;
+  width: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+.gp-empty-cube {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  display: block;
+}
+.gp-empty-cube--a {
+  width: 17.5%;
+  right: 2.4%;
+  bottom: 3.2%;
+  transform: rotate(-12deg);
+}
+.gp-empty-cube--b {
+  width: 15.2%;
+  right: 14.5%;
+  bottom: 2.4%;
+  transform: rotate(18deg);
+}
+.gp-empty-cube--c {
+  width: 13.4%;
+  right: 8.2%;
+  bottom: 18%;
+  transform: rotate(-28deg);
+}
+.gp-empty-cube--d {
+  width: 12.2%;
+  right: 22%;
+  bottom: 8%;
+  transform: rotate(8deg);
+}
+.gp-empty-cube--e {
+  width: 11%;
+  right: 1.2%;
+  bottom: 22%;
+  transform: rotate(32deg);
+}
+.gp-empty-name {
+  position: absolute;
+  left: 4.2%;
+  bottom: 6.5%;
+  z-index: 3;
+  margin: 0;
+  font-family: Nunito, var(--font);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 11.4cqw;
+  line-height: 0.88;
+  color: #fff;
+  -webkit-text-stroke: 0.7cqw #110d08;
+  paint-order: stroke fill;
+  letter-spacing: -0.03em;
+  text-shadow:
+    -0.12cqw 0 #110d08,
+    0.12cqw 0 #110d08,
+    0 -0.12cqw #110d08,
+    0 0.12cqw #110d08;
 }
 @media (max-width: 920px) {
   .gp-parts { grid-template-columns: repeat(2, 1fr); }
