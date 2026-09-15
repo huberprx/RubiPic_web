@@ -709,6 +709,10 @@ section { padding: 64px 0; }
   -webkit-text-stroke: 0.45cqw #000;
   paint-order: stroke fill;
   text-shadow: none;
+  font-family: "Nunito", "Quicksand", "Noto Sans Arabic", "Noto Naskh Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "WenQuanYi Micro Hei", "Droid Sans Fallback", sans-serif;
+}
+html[dir="rtl"] .gp-grid .asc-card__copy {
+  direction: rtl;
 }
 /* 71.46cqw of device width makes the framed mockup exactly 80% of the
    artboard height, given the 295:640 screenshot and the 1.6cqw bezel */

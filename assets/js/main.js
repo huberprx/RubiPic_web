@@ -12,8 +12,21 @@
   }
 
   function applyLang(lang) {
-    var dict = window.RUBIPIC_I18N[lang] || window.RUBIPIC_I18N.en;
-    document.documentElement.setAttribute("lang", lang);
+    var play = window.RUBIPIC_PLAY_HEADLINES && window.RUBIPIC_PLAY_HEADLINES[lang];
+    var baseLang = play && play.htmlLang
+      ? (window.RUBIPIC_I18N[play.htmlLang] ? play.htmlLang : (play.htmlLang.indexOf("pl") === 0 ? "pl" : "en"))
+      : lang;
+    if (!window.RUBIPIC_I18N[baseLang]) baseLang = "en";
+    var dict = Object.assign(
+      {},
+      window.RUBIPIC_I18N.en,
+      window.RUBIPIC_I18N[baseLang] || {},
+      play && play.titles ? play.titles : {}
+    );
+    var htmlLang = play && play.htmlLang ? play.htmlLang : lang;
+    var dir = play && play.dir ? play.dir : "ltr";
+    document.documentElement.setAttribute("lang", htmlLang);
+    document.documentElement.setAttribute("dir", dir);
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
@@ -42,6 +55,8 @@
 
     localStorage.setItem(STORAGE_KEY, lang);
   }
+
+  window.RUBIPIC_APPLY_LANG = applyLang;
 
   function initLangToggle() {
     document.querySelectorAll(".lang-toggle button").forEach(function (btn) {
