@@ -1,0 +1,11 @@
+{
+  "name": "rubipic-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:google-play": "node scripts/export-google-play.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
