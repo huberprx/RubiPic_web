@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 /**
  * Export Google Play listing graphics from googleplay.html (English).
- * Outputs PNGs at exact Play Store dimensions + preview.html contact sheet.
+ *
+ * Phone cards are captured exactly as the page styles them: headline, cubes,
+ * and the CSS phone-frame (bezel, rounded screen, home indicator). Google Play
+ * cards intentionally have no Dynamic Island (see .gp-grid .phone-frame::before).
+ * Export CSS only sizes the artboard to 1080×1920 / 1024×500 — it does not
+ * strip frames, screenshots, or decorations.
  *
  * Usage: node scripts/export-google-play.mjs
  */
@@ -47,17 +52,6 @@ const EXPORT_CSS = `
     z-index: 9999;
   }
   body.gp-export-mode .asc-card.gp-export-active { display: flex !important; }
-  body.gp-export-mode .phone-frame {
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    width: 71.46cqw !important;
-  }
-  body.gp-export-mode .phone-frame::before,
-  body.gp-export-mode .phone-frame::after { content: none !important; }
-  body.gp-export-mode .phone-frame img { border-radius: 0 !important; }
   body.gp-export-mode .gp-feature-block { margin: 0 !important; }
   body.gp-export-mode .gp-feature--empty {
     display: none;
@@ -253,6 +247,8 @@ async function main() {
 
     const page = await context.newPage();
     await page.goto(`${baseUrl}/googleplay.html`, { waitUntil: "networkidle" });
+    await page.locator('.lang-toggle button[data-lang="en"]').click();
+    await page.waitForFunction(() => document.documentElement.lang === "en");
     await waitForAssets(page);
     await page.addStyleTag({ content: EXPORT_CSS });
     await page.evaluate(() => document.body.classList.add("gp-export-mode"));
@@ -310,7 +306,7 @@ async function main() {
     console.log("Wrote", previewPath);
 
     const previewPage = await context.newPage();
-    await previewPage.setViewportSize({ width: 1400, height: 2400 });
+    await previewPage.setViewportSize({ width: 1600, height: 2800 });
     await previewPage.goto(`file://${previewPath}`, { waitUntil: "networkidle" });
     await previewPage.waitForTimeout(300);
     const sheetPath = join(OUT_DIR, "preview-contact-sheet.png");
