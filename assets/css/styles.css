@@ -735,6 +735,23 @@ section { padding: 64px 0; }
   --gp-art-h: 88%;
   --gp-gutter: calc((100% - 85.9375%) / 3);
 }
+.gp-empty-wordmark {
+  position: absolute;
+  left: var(--gp-gutter);
+  top: 2.2%;
+  z-index: 6;
+  margin: 0;
+  pointer-events: none;
+  font-family: "Nunito", "Quicksand", var(--font);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 4.8cqw;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #fff;
+  -webkit-text-stroke: 0.16cqw #211a12;
+  paint-order: stroke fill;
+}
 .gp-empty-layer {
   position: absolute;
   padding: 0;
