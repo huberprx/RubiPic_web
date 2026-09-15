@@ -745,11 +745,11 @@ section { padding: 64px 0; }
   font-family: "Nunito", "Quicksand", var(--font);
   font-style: italic;
   font-weight: 900;
-  font-size: 4.8cqw;
+  font-size: 6cqw;
   line-height: 1;
   letter-spacing: -0.03em;
   color: #fff;
-  -webkit-text-stroke: 0.16cqw #211a12;
+  -webkit-text-stroke: 0.2cqw #211a12;
   paint-order: stroke fill;
 }
 .gp-empty-layer {
